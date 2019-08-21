@@ -1,8 +1,8 @@
 {{extend 'custom_layout.html'}}
 
 <div class="panel panel-primary gradient-diag1">
-	<div class="card panel-body" style="min-width:800px;max-width:800px;">
-		<div class="row" style="background-color:#116ca5;color: #fff;margin:1px;min-width:790px;max-width:800px;">
+	<div class="card panel-body" style="min-width:980px;max-width:980px;">
+		<div class="row" style="background-color:#116ca5;color: #fff;margin:1px;min-width:970px;max-width:980px;">
 			<span style="font-size: 18px; padding:10px 10px 0px 30px;">Lista de empleados</span>
 			<div style="padding-bottom:10px;margin-left:80%;" class="pull-right btn-formulario">
 				<a href="{{=URL('employee','new')}}" style="font-size:14px;color:#fff"><span class="fa fa-plus"></span> Nuevo registro</a>
@@ -60,7 +60,6 @@
 	</div>
 </div>
 
-{{block page_js}}
 <script>
 	$(document).ready(function(){
 		$(document).on('click', '.btn-eliminar', function(e){
@@ -77,8 +76,9 @@
 			});
 		});
 		});
-	function filterEmp(){
-		prof = "{{employee.profession_id.name_profession}}"
+/* function filterEmp(){
+		d = dataset
+		prof = "{{d.profession_id.name_profession}}"
 		console.log(prof)
 		$('option[name=profession] option').each(function(i,e){
 		if($(e).data('profession') == prof || $(e).data('profession') == 0){
@@ -92,7 +92,8 @@
 
 	$("select[name=filter]").on('change', function(){
 		filterEmp()
-	})
+	}) --> */
 
 </script>
+{{block page_js}}
 {{end page_js}}
