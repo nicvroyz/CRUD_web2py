@@ -1,0 +1,756 @@
+(dp1
+S'output'
+p2
+S'<class \'psycopg2.ProgrammingError\'> relation "auth_user" does not exist\nLINE 1: ...password_key", "auth_user"."registration_id" FROM "auth_user...\n                                                             ^\n'
+p3
+sS'layer'
+p4
+S'/Users/nic/Dev/web2py/applications/test/models/db_model.py'
+p5
+sS'code'
+p6
+S'<code object <module> at 0x10c4fc230, file "/Users/nic/Dev/web2py/applications/test/models/db_model.py", line 2>'
+p7
+sS'snapshot'
+p8
+(dp9
+S'exception'
+p10
+(dp11
+S'__module__'
+p12
+S"'psycopg2'"
+p13
+sS'__getslice__'
+p14
+S"<method-wrapper '__getslice__' of ProgrammingError object>"
+p15
+sS'__str__'
+p16
+S"<method-wrapper '__str__' of ProgrammingError object>"
+p17
+sS'__reduce__'
+p18
+S'<built-in method __reduce__ of ProgrammingError object>'
+p19
+sS'__dict__'
+p20
+S'{}'
+p21
+sS'__sizeof__'
+p22
+S'<built-in method __sizeof__ of ProgrammingError object>'
+p23
+sS'__weakref__'
+p24
+S'None'
+p25
+sS'message'
+p26
+S'\'relation "auth_user" does not exist\\nLINE 1: ...p...                                               ^\\n\''
+p27
+sS'__init__'
+p28
+S"<method-wrapper '__init__' of ProgrammingError object>"
+p29
+sS'__setattr__'
+p30
+S"<method-wrapper '__setattr__' of ProgrammingError object>"
+p31
+sS'__reduce_ex__'
+p32
+S'<built-in method __reduce_ex__ of ProgrammingError object>'
+p33
+sS'__new__'
+p34
+S'<built-in method __new__ of type object>'
+p35
+sS'diag'
+p36
+S'<psycopg2.extensions.Diagnostics object>'
+p37
+sS'__format__'
+p38
+S'<built-in method __format__ of ProgrammingError object>'
+p39
+sS'__class__'
+p40
+S"<class 'psycopg2.ProgrammingError'>"
+p41
+sS'pgerror'
+p42
+S'\'ERROR:  relation "auth_user" does not exist\\nLINE...                                               ^\\n\''
+p43
+sS'__doc__'
+p44
+S"'Error related to database programming (SQL error, table not found etc).'"
+p45
+sS'__getitem__'
+p46
+S"<method-wrapper '__getitem__' of ProgrammingError object>"
+p47
+sS'__setstate__'
+p48
+S'<built-in method __setstate__ of ProgrammingError object>'
+p49
+sS'__getattribute__'
+p50
+S"<method-wrapper '__getattribute__' of ProgrammingError object>"
+p51
+sS'args'
+p52
+S'(\'relation "auth_user" does not exist\\nLINE 1: ...p...                                               ^\\n\',)'
+p53
+sS'__subclasshook__'
+p54
+S'<built-in method __subclasshook__ of type object>'
+p55
+sS'pgcode'
+p56
+S"'42P01'"
+p57
+sS'__unicode__'
+p58
+S'<built-in method __unicode__ of ProgrammingError object>'
+p59
+sS'cursor'
+p60
+S'<cursor object at 0x10de4fe50; closed: 0>'
+p61
+sS'__delattr__'
+p62
+S"<method-wrapper '__delattr__' of ProgrammingError object>"
+p63
+sS'__repr__'
+p64
+S"<method-wrapper '__repr__' of ProgrammingError object>"
+p65
+sS'__hash__'
+p66
+S"<method-wrapper '__hash__' of ProgrammingError object>"
+p67
+ssS'evalue'
+p68
+S'relation "auth_user" does not exist\nLINE 1: ...password_key", "auth_user"."registration_id" FROM "auth_user...\n                                                             ^\n'
+p69
+sS'request'
+p70
+cgluon.html
+XML_unpickle
+p71
+(S'sNs\x00\x00<div><table><tr><td style="font-weight:bold;vertical-align:top;">ajax</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">application</td><td style="vertical-align:top;">:</td><td><div>test</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">args</td><td style="vertical-align:top;">:</td><td><div><table></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">cid</td><td style="vertical-align:top;">:</td><td><div>None</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">client</td><td style="vertical-align:top;">:</td><td><div>127.0.0.1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">controller</td><td style="vertical-align:top;">:</td><td><div>default</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">cookies</td><td style="vertical-align:top;">:</td><td><div><table><tr><td style="font-weight:bold;vertical-align:top;">session_id_admin</td><td style="vertical-align:top;">:</td><td><div>127.0.0.1-3b2ec212-1560-4971-a9aa-aa269d6b38e5<table><tr><td style="font-weight:bold;vertical-align:top;">comment</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">domain</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">expires</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">httponly</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">max-age</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">path</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">samesite</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">secure</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">version</td><td style="vertical-align:top;">:</td><td><div></div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_id_biodiversa_soniline</td><td style="vertical-align:top;">:</td><td><div>127.0.0.1-88c39e2b-a2fd-4963-ab72-c6daa8978278<table><tr><td style="font-weight:bold;vertical-align:top;">comment</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">domain</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">expires</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">httponly</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">max-age</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">path</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">samesite</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">secure</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">version</td><td style="vertical-align:top;">:</td><td><div></div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_id_sonoline</td><td style="vertical-align:top;">:</td><td><div>127.0.0.1-671dc851-c68e-43fc-89c2-9cc4cf9460bd<table><tr><td style="font-weight:bold;vertical-align:top;">comment</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">domain</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">expires</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">httponly</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">max-age</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">path</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">samesite</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">secure</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">version</td><td style="vertical-align:top;">:</td><td><div></div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_id_sonoline_player</td><td style="vertical-align:top;">:</td><td><div>127.0.0.1-e1927753-f3ea-4aa4-a5c3-6b1e4a994650<table><tr><td style="font-weight:bold;vertical-align:top;">comment</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">domain</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">expires</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">httponly</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">max-age</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">path</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">samesite</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">secure</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">version</td><td style="vertical-align:top;">:</td><td><div></div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_id_test</td><td style="vertical-align:top;">:</td><td><div>127.0.0.1-17236678-8210-42ed-8f37-fd2758eca989<table><tr><td style="font-weight:bold;vertical-align:top;">comment</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">domain</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">expires</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">httponly</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">max-age</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">path</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">samesite</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">secure</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">version</td><td style="vertical-align:top;">:</td><td><div></div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_id_welcome</td><td style="vertical-align:top;">:</td><td><div>127.0.0.1-0879dd4f-c29f-4d3f-aa88-f2a12201b06e<table><tr><td style="font-weight:bold;vertical-align:top;">comment</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">domain</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">expires</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">httponly</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">max-age</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">path</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">samesite</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">secure</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">version</td><td style="vertical-align:top;">:</td><td><div></div></td></tr></table></div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">env</td><td style="vertical-align:top;">:</td><td><div><table><tr><td style="font-weight:bold;vertical-align:top;">HTTP_ACCEPT</td><td style="vertical-align:top;">:</td><td><div>text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_ACCEPT_ENCODING</td><td style="vertical-align:top;">:</td><td><div>gzip, deflate, br</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_ACCEPT_LANGUAGE</td><td style="vertical-align:top;">:</td><td><div>es-419,es;q=0.9</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_CONNECTION</td><td style="vertical-align:top;">:</td><td><div>keep-alive</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_COOKIE</td><td style="vertical-align:top;">:</td><td><div>session_id_sonoline_player=127.0.0.1-e1927753-f3ea-4aa4-a5c3-6b1e4a994650; session_id_admin=127.0.0.1-3b2ec212-1560-4971-a9aa-aa269d6b38e5; session_id_sonoline=127.0.0.1-671dc851-c68e-43fc-89c2-9cc4cf9460bd; session_id_test=127.0.0.1-17236678-8210-42ed-8f37-fd2758eca989; session_id_welcome=127.0.0.1-0879dd4f-c29f-4d3f-aa88-f2a12201b06e; session_id_biodiversa_soniline=127.0.0.1-88c39e2b-a2fd-4963-ab72-c6daa8978278</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_HOST</td><td style="vertical-align:top;">:</td><td><div>127.0.0.1:8000</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_SEC_FETCH_MODE</td><td style="vertical-align:top;">:</td><td><div>navigate</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_SEC_FETCH_SITE</td><td style="vertical-align:top;">:</td><td><div>none</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_SEC_FETCH_USER</td><td style="vertical-align:top;">:</td><td><div>?1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_UPGRADE_INSECURE_REQUESTS</td><td style="vertical-align:top;">:</td><td><div>1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_USER_AGENT</td><td style="vertical-align:top;">:</td><td><div>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">PATH_INFO</td><td style="vertical-align:top;">:</td><td><div>/test/default/index</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">QUERY_STRING</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">REMOTE_ADDR</td><td style="vertical-align:top;">:</td><td><div>127.0.0.1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">REMOTE_PORT</td><td style="vertical-align:top;">:</td><td><div>55068</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">REQUEST_METHOD</td><td style="vertical-align:top;">:</td><td><div>GET</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">SCRIPT_NAME</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">SERVER_NAME</td><td style="vertical-align:top;">:</td><td><div>MacBook-Air-de-Nic.local</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">SERVER_PORT</td><td style="vertical-align:top;">:</td><td><div>8000</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">SERVER_PROTOCOL</td><td style="vertical-align:top;">:</td><td><div>HTTP/1.1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">SERVER_SOFTWARE</td><td style="vertical-align:top;">:</td><td><div>Rocket 1.2.6</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">app_folders</td><td style="vertical-align:top;">:</td><td><div>set([&#x27;/Users/nic/Dev/web2py/applications/admin&#x27;, &#x27;/Users/nic/Dev/web2py/applications/biodiversa_soniline&#x27;, &#x27;/Users/nic/Dev/web2py/applications/welcome&#x27;, &#x27;/Users/nic/Dev/web2py/applications/test&#x27;])</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">applications_parent</td><td style="vertical-align:top;">:</td><td><div>/Users/nic/Dev/web2py</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">cmd_args</td><td style="vertical-align:top;">:</td><td><div><table></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">cmd_options</td><td style="vertical-align:top;">:</td><td><div>&lt;Values at 0x109f514d0: {&#x27;verbose&#x27;: False, &#x27;ip&#x27;: &#x27;127.0.0.1&#x27;, &#x27;debuglevel&#x27;: 30, &#x27;with_scheduler&#x27;: False, &#x27;shutdown_timeout&#x27;: 5, &#x27;taskbar&#x27;: False, &#x27;with_coverage&#x27;: False, &#x27;pid_filename&#x27;: &#x27;httpserver.pid&#x27;, &#x27;maxthreads&#x27;: None, &#x27;softcron&#x27;: False, &#x27;server_name&#x27;: &#x27;MacBook-Air-de-Nic.local&#x27;, &#x27;bpython&#x27;: False, &#x27;nogui&#x27;: False, &#x27;port&#x27;: 8000, &#x27;print_errors&#x27;: False, &#x27;extcron&#x27;: False, &#x27;runcron&#x27;: False, &#x27;run_system_tests&#x27;: False, &#x27;test&#x27;: None, &#x27;folder&#x27;: &#x27;/Users/nic/Dev/web2py&#x27;, &#x27;config&#x27;: &#x27;&#x27;, &#x27;minthreads&#x27;: None, &#x27;shell&#x27;: None, &#x27;run&#x27;: &#x27;&#x27;, &#x27;log_filename&#x27;: &#x27;httpserver.log&#x27;, &#x27;profiler_dir&#x27;: None, &#x27;args&#x27;: [], &#x27;socket_timeout&#x27;: 5, &#x27;ssl_ca_certificate&#x27;: None, &#x27;scheduler&#x27;: None, &#x27;interfaces&#x27;: None, &#x27;ssl_private_key&#x27;: &#x27;&#x27;, &#x27;gae&#x27;: None, &#x27;password&#x27;: &#x27;******&#x27;, &#x27;request_queue_size&#x27;: 5, &#x27;ssl_certificate&#x27;: &#x27;&#x27;, &#x27;cronjob&#x27;: False, &#x27;numthreads&#x27;: None, &#x27;quiet&#x27;: False, &#x27;import_models&#x27;: False, &#x27;timeout&#x27;: 10, &#x27;plain&#x27;: False, &#x27;nobanner&#x27;: False}&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">db_sessions</td><td style="vertical-align:top;">:</td><td><div>set([])</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">debugging</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">gluon_parent</td><td style="vertical-align:top;">:</td><td><div>/Users/nic/Dev/web2py</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_accept</td><td style="vertical-align:top;">:</td><td><div>text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_accept_encoding</td><td style="vertical-align:top;">:</td><td><div>gzip, deflate, br</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_accept_language</td><td style="vertical-align:top;">:</td><td><div>es-419,es;q=0.9</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_connection</td><td style="vertical-align:top;">:</td><td><div>keep-alive</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_cookie</td><td style="vertical-align:top;">:</td><td><div>session_id_sonoline_player=127.0.0.1-e1927753-f3ea-4aa4-a5c3-6b1e4a994650; session_id_admin=127.0.0.1-3b2ec212-1560-4971-a9aa-aa269d6b38e5; session_id_sonoline=127.0.0.1-671dc851-c68e-43fc-89c2-9cc4cf9460bd; session_id_test=127.0.0.1-17236678-8210-42ed-8f37-fd2758eca989; session_id_welcome=127.0.0.1-0879dd4f-c29f-4d3f-aa88-f2a12201b06e; session_id_biodiversa_soniline=127.0.0.1-88c39e2b-a2fd-4963-ab72-c6daa8978278</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_host</td><td style="vertical-align:top;">:</td><td><div>127.0.0.1:8000</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_sec_fetch_mode</td><td style="vertical-align:top;">:</td><td><div>navigate</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_sec_fetch_site</td><td style="vertical-align:top;">:</td><td><div>none</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_sec_fetch_user</td><td style="vertical-align:top;">:</td><td><div>?1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_upgrade_insecure_requests</td><td style="vertical-align:top;">:</td><td><div>1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_user_agent</td><td style="vertical-align:top;">:</td><td><div>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_jython</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_py2</td><td style="vertical-align:top;">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_pypy</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_source</td><td style="vertical-align:top;">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">local_hosts</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div>fe80::cb5:c84a:e02e:28b7%en0</div></td></tr><tr><td><div>::ffff:127.0.0.1</div></td></tr><tr><td><div>::1</div></td></tr><tr><td><div>MacBook-Air-de-Nic.local</div></td></tr><tr><td><div>1.0.0.127.in-addr.arpa</div></td></tr><tr><td><div>127.0.0.1</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">path_info</td><td style="vertical-align:top;">:</td><td><div>/test/default/index</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">query_string</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">remote_addr</td><td style="vertical-align:top;">:</td><td><div>127.0.0.1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">remote_port</td><td style="vertical-align:top;">:</td><td><div>55068</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">request_method</td><td style="vertical-align:top;">:</td><td><div>GET</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">request_uri</td><td style="vertical-align:top;">:</td><td><div>/test/default/index</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">script_name</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">server_name</td><td style="vertical-align:top;">:</td><td><div>MacBook-Air-de-Nic.local</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">server_port</td><td style="vertical-align:top;">:</td><td><div>8000</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">server_protocol</td><td style="vertical-align:top;">:</td><td><div>HTTP/1.1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">server_software</td><td style="vertical-align:top;">:</td><td><div>Rocket 1.2.6</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">web2py_path</td><td style="vertical-align:top;">:</td><td><div>/Users/nic/Dev/web2py</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">web2py_version</td><td style="vertical-align:top;">:</td><td><div>2.18.5-stable+timestamp.2019.04.08.04.22.03</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.errors</td><td style="vertical-align:top;">:</td><td><div>&lt;open file &#x27;&lt;stderr&gt;&#x27;, mode &#x27;w&#x27; at 0x108ded1e0&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.file_wrapper</td><td style="vertical-align:top;">:</td><td><div>&lt;class wsgiref.util.FileWrapper at 0x109f09530&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.input</td><td style="vertical-align:top;">:</td><td><div>&lt;socket._fileobject object at 0x10dc817d0&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.multiprocess</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.multithread</td><td style="vertical-align:top;">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.run_once</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.url_scheme</td><td style="vertical-align:top;">:</td><td><div>http</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.version</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div>1</div></td></tr><tr><td><div>0</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_errors</td><td style="vertical-align:top;">:</td><td><div>&lt;open file &#x27;&lt;stderr&gt;&#x27;, mode &#x27;w&#x27; at 0x108ded1e0&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_file_wrapper</td><td style="vertical-align:top;">:</td><td><div>&lt;class wsgiref.util.FileWrapper at 0x109f09530&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_input</td><td style="vertical-align:top;">:</td><td><div>&lt;socket._fileobject object at 0x10dc817d0&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_multiprocess</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_multithread</td><td style="vertical-align:top;">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_run_once</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_url_scheme</td><td style="vertical-align:top;">:</td><td><div>http</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_version</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div>1</div></td></tr><tr><td><div>0</div></td></tr></table></div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">extension</td><td style="vertical-align:top;">:</td><td><div>html</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">folder</td><td style="vertical-align:top;">:</td><td><div>/Users/nic/Dev/web2py/applications/test</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">function</td><td style="vertical-align:top;">:</td><td><div>index</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">global_settings</td><td style="vertical-align:top;">:</td><td><div><table><tr><td style="font-weight:bold;vertical-align:top;">app_folders</td><td style="vertical-align:top;">:</td><td><div>set([&#x27;/Users/nic/Dev/web2py/applications/admin&#x27;, &#x27;/Users/nic/Dev/web2py/applications/biodiversa_soniline&#x27;, &#x27;/Users/nic/Dev/web2py/applications/welcome&#x27;, &#x27;/Users/nic/Dev/web2py/applications/test&#x27;])</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">applications_parent</td><td style="vertical-align:top;">:</td><td><div>/Users/nic/Dev/web2py</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">cmd_args</td><td style="vertical-align:top;">:</td><td><div><table></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">cmd_options</td><td style="vertical-align:top;">:</td><td><div>&lt;Values at 0x109f514d0: {&#x27;verbose&#x27;: False, &#x27;ip&#x27;: &#x27;127.0.0.1&#x27;, &#x27;debuglevel&#x27;: 30, &#x27;with_scheduler&#x27;: False, &#x27;shutdown_timeout&#x27;: 5, &#x27;taskbar&#x27;: False, &#x27;with_coverage&#x27;: False, &#x27;pid_filename&#x27;: &#x27;httpserver.pid&#x27;, &#x27;maxthreads&#x27;: None, &#x27;softcron&#x27;: False, &#x27;server_name&#x27;: &#x27;MacBook-Air-de-Nic.local&#x27;, &#x27;bpython&#x27;: False, &#x27;nogui&#x27;: False, &#x27;port&#x27;: 8000, &#x27;print_errors&#x27;: False, &#x27;extcron&#x27;: False, &#x27;runcron&#x27;: False, &#x27;run_system_tests&#x27;: False, &#x27;test&#x27;: None, &#x27;folder&#x27;: &#x27;/Users/nic/Dev/web2py&#x27;, &#x27;config&#x27;: &#x27;&#x27;, &#x27;minthreads&#x27;: None, &#x27;shell&#x27;: None, &#x27;run&#x27;: &#x27;&#x27;, &#x27;log_filename&#x27;: &#x27;httpserver.log&#x27;, &#x27;profiler_dir&#x27;: None, &#x27;args&#x27;: [], &#x27;socket_timeout&#x27;: 5, &#x27;ssl_ca_certificate&#x27;: None, &#x27;scheduler&#x27;: None, &#x27;interfaces&#x27;: None, &#x27;ssl_private_key&#x27;: &#x27;&#x27;, &#x27;gae&#x27;: None, &#x27;password&#x27;: &#x27;******&#x27;, &#x27;request_queue_size&#x27;: 5, &#x27;ssl_certificate&#x27;: &#x27;&#x27;, &#x27;cronjob&#x27;: False, &#x27;numthreads&#x27;: None, &#x27;quiet&#x27;: False, &#x27;import_models&#x27;: False, &#x27;timeout&#x27;: 10, &#x27;plain&#x27;: False, &#x27;nobanner&#x27;: False}&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">db_sessions</td><td style="vertical-align:top;">:</td><td><div>set([])</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">debugging</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">gluon_parent</td><td style="vertical-align:top;">:</td><td><div>/Users/nic/Dev/web2py</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_jython</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_py2</td><td style="vertical-align:top;">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_pypy</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_source</td><td style="vertical-align:top;">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">local_hosts</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div>fe80::cb5:c84a:e02e:28b7%en0</div></td></tr><tr><td><div>::ffff:127.0.0.1</div></td></tr><tr><td><div>::1</div></td></tr><tr><td><div>MacBook-Air-de-Nic.local</div></td></tr><tr><td><div>1.0.0.127.in-addr.arpa</div></td></tr><tr><td><div>127.0.0.1</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">web2py_version</td><td style="vertical-align:top;">:</td><td><div>2.18.5-stable+timestamp.2019.04.08.04.22.03</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_https</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_local</td><td style="vertical-align:top;">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_restful</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_scheduler</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_shell</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">method</td><td style="vertical-align:top;">:</td><td><div>GET</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">now</td><td style="vertical-align:top;">:</td><td><div>datetime.datetime(2019, 8, 20, 21, 51, 3, 136015)</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">raw_args</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">raw_extension</td><td style="vertical-align:top;">:</td><td><div>None</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">url</td><td style="vertical-align:top;">:</td><td><div>/test/default/index</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">utcnow</td><td style="vertical-align:top;">:</td><td><div>datetime.datetime(2019, 8, 21, 1, 51, 3, 136028)</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi</td><td style="vertical-align:top;">:</td><td><div>&lt;gluon.main.LazyWSGI object at 0x10e31f5d0&gt;</div></td></tr></table></div>'
+tRp72
+sS'frames'
+p73
+(lp74
+(dp75
+S'file'
+p76
+S'/Users/nic/Dev/web2py/gluon/restricted.py'
+p77
+sS'dump'
+p78
+(dp79
+S'environment'
+p80
+S"{'A': <class 'gluon.html.A'>, 'ANY_OF': <class 'pydal.validators.ANY_OF'>, 'ASSIGNJS': <function ASSIGNJS>, 'AppConfig': <function AppConfig>, 'Auth': <class 'gluon.tools.Auth'>, 'B': <class 'gluon.html.B'>, 'BEAUTIFY': <class 'gluon.html.BEAUTIFY'>, 'BODY': <class 'gluon.html.BODY'>, 'BR': <class 'gluon.html.BR'>, 'BUTTON': <class 'gluon.html.BUTTON'>, ...}"
+p81
+sS'ccode'
+p82
+S'<code object <module> at 0x10c4fc230, file "/Use...py/applications/test/models/db_model.py", line 2>'
+p83
+ssS'lnum'
+p84
+I219
+sS'lines'
+p85
+(dp86
+I214
+S'    if environment is None:'
+p87
+sI215
+S'        environment = {}'
+p88
+sI216
+S"    environment['__file__'] = layer"
+p89
+sI217
+S"    environment['__name__'] = '__restricted__'"
+p90
+sI218
+S'    try:'
+p91
+sI219
+S'        exec(ccode, environment)'
+p92
+sI220
+S'    except HTTP:'
+p93
+sI221
+S'        raise'
+p94
+sI222
+S'    except RestrictedError:'
+p95
+sI223
+S'        # do not encapsulate (obfuscate) the original RestrictedError'
+p96
+ssS'call'
+p97
+S'(ccode=<code object <module> at 0x10c4fc230, file "/Use...py/applications/test/models/db_model.py", line 2>, environment={\'A\': <class \'gluon.html.A\'>, \'ANY_OF\': <class \'pydal.validators.ANY_OF\'>, \'ASSIGNJS\': <function ASSIGNJS>, \'AppConfig\': <function AppConfig>, \'Auth\': <class \'gluon.tools.Auth\'>, \'B\': <class \'gluon.html.B\'>, \'BEAUTIFY\': <class \'gluon.html.BEAUTIFY\'>, \'BODY\': <class \'gluon.html.BODY\'>, \'BR\': <class \'gluon.html.BR\'>, \'BUTTON\': <class \'gluon.html.BUTTON\'>, ...}, layer=\'/Users/nic/Dev/web2py/applications/test/models/db_model.py\', scode=<code object <module> at 0x10c4fc230, file "/Use...py/applications/test/models/db_model.py", line 2>)'
+p98
+sS'func'
+p99
+S'restricted'
+p100
+sa(dp101
+g76
+S'/Users/nic/Dev/web2py/applications/test/models/db_model.py'
+p102
+sg78
+(dp103
+S'db.auth_user'
+p104
+S'<Table auth_user (id, first_name, last_name, ema...ration_key, reset_password_key, registration_id)>'
+p105
+sS').isempty'
+p106
+S'undefined'
+p107
+sS'db'
+p108
+S'<DAL uri="postgres://******@localhost/test">'
+p109
+sS'db.auth_user.id'
+p110
+S'<pydal.objects.Field object>'
+p111
+ssg84
+I2
+sg85
+(dp112
+I2
+S'if db(db.auth_user.id>0).isempty():'
+p113
+sI3
+S'    # creando usuario admin por defecto'
+p114
+sI4
+S"    password = db.auth_user.password.validate('testing')[0]"
+p115
+sI5
+S'    id_admin = db.auth_user.insert('
+p116
+sI6
+S"                first_name='Admin',"
+p117
+sI7
+S"                last_name='duoc',"
+p118
+sI8
+S"                email='admin@duoc.cl',"
+p119
+sI9
+S'                password=password'
+p120
+sI10
+S'            )'
+p121
+sI11
+S''
+ssg97
+S'()'
+p122
+sg99
+S'<module>'
+p123
+sa(dp124
+g76
+S'/Users/nic/Dev/web2py/gluon/packages/dal/pydal/objects.py'
+p125
+sg78
+(dp126
+S'orderby_on_limitby'
+p127
+g107
+sS'self'
+p128
+S'<Set ("auth_user"."id" > 0)>'
+p129
+sS'limitby'
+p130
+g107
+sS'builtinFalse'
+p131
+S'False'
+p132
+sS'self.select'
+p133
+S'<bound method Set.select of <Set ("auth_user"."id" > 0)>>'
+p134
+ssg84
+I2363
+sg85
+(dp135
+I2358
+S'                raise SyntaxError("Operator not supported: %s" % op)'
+p136
+sI2359
+S''
+sI2360
+S'        return built'
+p137
+sI2361
+S''
+sI2362
+S'    def isempty(self):'
+p138
+sI2363
+S'        return not self.select(limitby=(0, 1), orderby_on_limitby=False)'
+p139
+sI2364
+S''
+sI2365
+S'    def count(self, distinct=None, cache=None):'
+p140
+sI2366
+S'        db = self.db'
+p141
+sI2367
+S'        if cache:'
+p142
+ssg97
+S'(self=<Set ("auth_user"."id" > 0)>)'
+p143
+sg99
+S'isempty'
+p144
+sa(dp145
+g76
+S'/Users/nic/Dev/web2py/gluon/packages/dal/pydal/objects.py'
+p146
+sg78
+(dp147
+S'self.query'
+p148
+S'<Query ("auth_user"."id" > 0)>'
+p149
+sS'adapter.select'
+p150
+S'<bound method PostgrePsyco.select of <pydal.adapters.postgres.PostgrePsyco object>>'
+p151
+sS'fields'
+p152
+S'[<pydal.objects.Field object>, <pydal.objects.Field object>, <pydal.objects.Field object>, <pydal.objects.Field object>, <pydal.objects.Field object>, <pydal.objects.Field object>, <pydal.objects.Field object>, <pydal.objects.Field object>]'
+p153
+sS'adapter'
+p154
+S'<pydal.adapters.postgres.PostgrePsyco object>'
+p155
+sS'attributes'
+p156
+S"{'limitby': (0, 1), 'orderby_on_limitby': False}"
+p157
+sS'self'
+p158
+S'<Set ("auth_user"."id" > 0)>'
+p159
+ssg84
+I2395
+sg85
+(dp160
+I2390
+S"                                    attributes.get('join', None),"
+p161
+sI2391
+S"                                    attributes.get('left', None),"
+p162
+sI2392
+S"                                    attributes.get('orderby', None),"
+p163
+sI2393
+S"                                    attributes.get('groupby', None))"
+p164
+sI2394
+S'        fields = adapter.expand_all(fields, tablenames)'
+p165
+sI2395
+S'        return adapter.select(self.query, fields, attributes)'
+p166
+sI2396
+S''
+sI2397
+S'    def iterselect(self, *fields, **attributes):'
+p167
+sI2398
+S'        adapter = self.db._adapter'
+p168
+sI2399
+S'        tablenames = adapter.tables(self.query,'
+p169
+ssg97
+S'(self=<Set ("auth_user"."id" > 0)>, *fields=[<pydal.objects.Field object>, <pydal.objects.Field object>, <pydal.objects.Field object>, <pydal.objects.Field object>, <pydal.objects.Field object>, <pydal.objects.Field object>, <pydal.objects.Field object>, <pydal.objects.Field object>], **attributes={\'limitby\': (0, 1), \'orderby_on_limitby\': False})'
+p170
+sg99
+S'select'
+p171
+sa(dp172
+g76
+S'/Users/nic/Dev/web2py/gluon/packages/dal/pydal/adapters/base.py'
+p173
+sg78
+(dp174
+S'self._select_aux'
+p175
+S'<bound method PostgrePsyco._select_aux of <pydal.adapters.postgres.PostgrePsyco object>>'
+p176
+sS'fields'
+p177
+S'[<pydal.objects.Field object>, <pydal.objects.Field object>, <pydal.objects.Field object>, <pydal.objects.Field object>, <pydal.objects.Field object>, <pydal.objects.Field object>, <pydal.objects.Field object>, <pydal.objects.Field object>]'
+p178
+sS'self'
+p179
+S'<pydal.adapters.postgres.PostgrePsyco object>'
+p180
+sS'sql'
+p181
+S'\'SELECT "auth_user"."id", "auth_user"."first_name...r" WHERE ("auth_user"."id" > 0) LIMIT 1 OFFSET 0;\''
+p182
+sS'attributes'
+p183
+S"{'limitby': (0, 1), 'orderby_on_limitby': False}"
+p184
+sS'colnames'
+p185
+S"['auth_user.id', 'auth_user.first_name', 'auth_user.last_name', 'auth_user.email', 'auth_user.password', 'auth_user.registration_key', 'auth_user.reset_password_key', 'auth_user.registration_id']"
+p186
+ssg84
+I763
+sg85
+(dp187
+I758
+S'        colnames, sql = self._select_wcols(query, fields, **attributes)'
+p188
+sI759
+S"        cache = attributes.get('cache', None)"
+p189
+sI760
+S"        if cache and attributes.get('cacheable', False):"
+p190
+sI761
+S'            return self._cached_select('
+p191
+sI762
+S'                cache, sql, fields, attributes, colnames)'
+p192
+sI763
+S'        return self._select_aux(sql, fields, attributes, colnames)'
+p193
+sI764
+S''
+sI765
+S'    def iterselect(self, query, fields, attributes):'
+p194
+sI766
+S'        colnames, sql = self._select_wcols(query, fields, **attributes)'
+p195
+sI767
+S"        cacheable = attributes.get('cacheable', False)"
+p196
+ssg97
+S'(self=<pydal.adapters.postgres.PostgrePsyco object>, query=<Query ("auth_user"."id" > 0)>, fields=[<pydal.objects.Field object>, <pydal.objects.Field object>, <pydal.objects.Field object>, <pydal.objects.Field object>, <pydal.objects.Field object>, <pydal.objects.Field object>, <pydal.objects.Field object>, <pydal.objects.Field object>], attributes={\'limitby\': (0, 1), \'orderby_on_limitby\': False})'
+p197
+sg99
+g171
+sa(dp198
+g76
+S'/Users/nic/Dev/web2py/gluon/packages/dal/pydal/adapters/base.py'
+p199
+sg78
+(dp200
+S'self'
+p201
+S'<pydal.adapters.postgres.PostgrePsyco object>'
+p202
+sS'rows'
+p203
+g107
+sS'self._select_aux_execute'
+p204
+S'<bound method PostgrePsyco._select_aux_execute of <pydal.adapters.postgres.PostgrePsyco object>>'
+p205
+sS'sql'
+p206
+S'\'SELECT "auth_user"."id", "auth_user"."first_name...r" WHERE ("auth_user"."id" > 0) LIMIT 1 OFFSET 0;\''
+p207
+ssg84
+I719
+sg85
+(dp208
+I714
+S'        return self.cursor.fetchall()'
+p209
+sI715
+S''
+sI716
+S'    def _select_aux(self, sql, fields, attributes, colnames):'
+p210
+sI717
+S"        cache = attributes.get('cache', None)"
+p211
+sI718
+S'        if not cache:'
+p212
+sI719
+S'            rows = self._select_aux_execute(sql)'
+p213
+sI720
+S'        else:'
+p214
+sI721
+S'            if isinstance(cache, dict):'
+p215
+sI722
+S"                cache_model = cache['model']"
+p216
+sI723
+S"                time_expire = cache['expiration']"
+p217
+ssg97
+S'(self=<pydal.adapters.postgres.PostgrePsyco object>, sql=\'SELECT "auth_user"."id", "auth_user"."first_name...r" WHERE ("auth_user"."id" > 0) LIMIT 1 OFFSET 0;\', fields=[<pydal.objects.Field object>, <pydal.objects.Field object>, <pydal.objects.Field object>, <pydal.objects.Field object>, <pydal.objects.Field object>, <pydal.objects.Field object>, <pydal.objects.Field object>, <pydal.objects.Field object>], attributes={\'limitby\': (0, 1), \'orderby_on_limitby\': False}, colnames=[\'auth_user.id\', \'auth_user.first_name\', \'auth_user.last_name\', \'auth_user.email\', \'auth_user.password\', \'auth_user.registration_key\', \'auth_user.reset_password_key\', \'auth_user.registration_id\'])'
+p218
+sg99
+S'_select_aux'
+p219
+sa(dp220
+g76
+S'/Users/nic/Dev/web2py/gluon/packages/dal/pydal/adapters/base.py'
+p221
+sg78
+(dp222
+S'self'
+p223
+S'<pydal.adapters.postgres.PostgrePsyco object>'
+p224
+sS'self.execute'
+p225
+S'<bound method PostgrePsyco.wrap of <pydal.adapters.postgres.PostgrePsyco object>>'
+p226
+sS'sql'
+p227
+S'\'SELECT "auth_user"."id", "auth_user"."first_name...r" WHERE ("auth_user"."id" > 0) LIMIT 1 OFFSET 0;\''
+p228
+ssg84
+I713
+sg85
+(dp229
+I708
+S''
+sI709
+S'    def nested_select(self, query, fields, attributes):'
+p230
+sI710
+S'        return Select(self.db, query, fields, attributes)'
+p231
+sI711
+S''
+sI712
+S'    def _select_aux_execute(self, sql):'
+p232
+sI713
+S'        self.execute(sql)'
+p233
+sI714
+S'        return self.cursor.fetchall()'
+p234
+sI715
+S''
+sI716
+S'    def _select_aux(self, sql, fields, attributes, colnames):'
+p235
+sI717
+S"        cache = attributes.get('cache', None)"
+p236
+ssg97
+S'(self=<pydal.adapters.postgres.PostgrePsyco object>, sql=\'SELECT "auth_user"."id", "auth_user"."first_name...r" WHERE ("auth_user"."id" > 0) LIMIT 1 OFFSET 0;\')'
+p237
+sg99
+S'_select_aux_execute'
+p238
+sa(dp239
+g76
+S'/Users/nic/Dev/web2py/gluon/packages/dal/pydal/adapters/__init__.py'
+p240
+sg78
+(dp241
+S'kwargs'
+p242
+g21
+sS'args'
+p243
+S'(<pydal.adapters.postgres.PostgrePsyco object>, \'SELECT "auth_user"."id", "auth_user"."first_name...r" WHERE ("auth_user"."id" > 0) LIMIT 1 OFFSET 0;\')'
+p244
+sS'f'
+S'<function execute>'
+p245
+ssg84
+I67
+sg85
+(dp246
+I64
+S'            if len(args) > 1:'
+p247
+sI65
+S'                raise ValueError(args[1])'
+p248
+sI66
+S"            raise RuntimeError('no connection available')"
+p249
+sI67
+S'        return f(*args, **kwargs)'
+p250
+sI68
+S'    return wrap'
+p251
+sI69
+S''
+sI70
+S''
+sI71
+S'from .base import SQLAdapter, NoSQLAdapter'
+p252
+sI62
+S'    def wrap(*args, **kwargs):'
+p253
+sI63
+S'        if not args[0].connection:'
+p254
+ssg97
+S'(*args=(<pydal.adapters.postgres.PostgrePsyco object>, \'SELECT "auth_user"."id", "auth_user"."first_name...r" WHERE ("auth_user"."id" > 0) LIMIT 1 OFFSET 0;\'), **kwargs={})'
+p255
+sg99
+S'wrap'
+p256
+sa(dp257
+g76
+S'/Users/nic/Dev/web2py/gluon/packages/dal/pydal/adapters/base.py'
+p258
+sg78
+(dp259
+S'rv'
+p260
+g107
+sS'self'
+p261
+S'<pydal.adapters.postgres.PostgrePsyco object>'
+p262
+sS'args'
+p263
+S'(\'SELECT "auth_user"."id", "auth_user"."first_name...r" WHERE ("auth_user"."id" > 0) LIMIT 1 OFFSET 0;\',)'
+p264
+sS'self.cursor'
+p265
+S'<cursor object at 0x10de4fe50; closed: 0>'
+p266
+sS'command'
+p267
+S'\'SELECT "auth_user"."id", "auth_user"."first_name...r" WHERE ("auth_user"."id" > 0) LIMIT 1 OFFSET 0;\''
+p268
+sS'self.cursor.execute'
+p269
+S'<built-in method execute of psycopg2.extensions.cursor object>'
+p270
+sS'kwargs'
+p271
+g21
+ssg84
+I413
+sg85
+(dp272
+I416
+S'        return rv'
+p273
+sI417
+S''
+sI408
+S'    def execute(self, *args, **kwargs):'
+p274
+sI409
+S'        command = self.filter_sql_command(args[0])'
+p275
+sI410
+S'        handlers = self._build_handlers_for_execution()'
+p276
+sI411
+S'        for handler in handlers:'
+p277
+sI412
+S'            handler.before_execute(command)'
+p278
+sI413
+S'        rv = self.cursor.execute(command, *args[1:], **kwargs)'
+p279
+sI414
+S'        for handler in handlers:'
+p280
+sI415
+S'            handler.after_execute(command)'
+p281
+ssg97
+S'(self=<pydal.adapters.postgres.PostgrePsyco object>, *args=(\'SELECT "auth_user"."id", "auth_user"."first_name...r" WHERE ("auth_user"."id" > 0) LIMIT 1 OFFSET 0;\',), **kwargs={})'
+p282
+sg99
+S'execute'
+p283
+sasS'pyver'
+p284
+S'Python 2.7.10: /usr/bin/python (prefix: /System/Library/Frameworks/Python.framework/Versions/2.7)'
+p285
+sS'session'
+p286
+g71
+(S's\x1a\x00\x00\x00<div><table></table></div>'
+tRp287
+sS'etype'
+p288
+S"<class 'psycopg2.ProgrammingError'>"
+p289
+sS'date'
+p290
+S'Tue Aug 20 21:51:03 2019'
+p291
+sS'response'
+p292
+g71
+(S's\x80\x1a\x00\x00<div><table><tr><td style="font-weight:bold;vertical-align:top;">body</td><td style="vertical-align:top;">:</td><td><div>&lt;cStringIO.StringO object at 0x10e7c9378&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">cookies</td><td style="vertical-align:top;">:</td><td><div><table><tr><td style="font-weight:bold;vertical-align:top;">session_id_test</td><td style="vertical-align:top;">:</td><td><div>127.0.0.1-17236678-8210-42ed-8f37-fd2758eca989<table><tr><td style="font-weight:bold;vertical-align:top;">comment</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">domain</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">expires</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">httponly</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">max-age</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">path</td><td style="vertical-align:top;">:</td><td><div>/</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">samesite</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">secure</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">version</td><td style="vertical-align:top;">:</td><td><div></div></td></tr></table></div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">delimiters</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div>{{</div></td></tr><tr><td><div>}}</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">files</td><td style="vertical-align:top;">:</td><td><div><table></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">flash</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">form_label_separator</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">formstyle</td><td style="vertical-align:top;">:</td><td><div>bootstrap4_inline</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">generic_patterns</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div>*</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">google_analytics_id</td><td style="vertical-align:top;">:</td><td><div>None</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">headers</td><td style="vertical-align:top;">:</td><td><div><table><tr><td style="font-weight:bold;vertical-align:top;">X-Powered-By</td><td style="vertical-align:top;">:</td><td><div>web2py</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">menu</td><td style="vertical-align:top;">:</td><td><div><table></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">meta</td><td style="vertical-align:top;">:</td><td><div><table><tr><td style="font-weight:bold;vertical-align:top;">author</td><td style="vertical-align:top;">:</td><td><div>Your Name &lt;you@example.com&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">description</td><td style="vertical-align:top;">:</td><td><div>a cool new app</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">generator</td><td style="vertical-align:top;">:</td><td><div>Web2py Web Framework</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">keywords</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div>web2py</div></td></tr><tr><td><div>python</div></td></tr><tr><td><div>framework</div></td></tr></table></div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">models_to_run</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div>^\\w+\\.py$</div></td></tr><tr><td><div>^default/\\w+\\.py$</div></td></tr><tr><td><div>^default/index/\\w+\\.py$</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">postprocessing</td><td style="vertical-align:top;">:</td><td><div><table></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_client</td><td style="vertical-align:top;">:</td><td><div>127.0.0.1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_cookie_compression_level</td><td style="vertical-align:top;">:</td><td><div>None</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_cookie_expires</td><td style="vertical-align:top;">:</td><td><div>None</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_data_name</td><td style="vertical-align:top;">:</td><td><div>session_data_test</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_filename</td><td style="vertical-align:top;">:</td><td><div>/Users/nic/Dev/web2py/applications/test/sessions/127.0.0.1-7ae546d4-c8d7-47ed-95c6-386a980a2001</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_hash</td><td style="vertical-align:top;">:</td><td><div>a61c8ca82ad4638eac77820886209827</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_id</td><td style="vertical-align:top;">:</td><td><div>127.0.0.1-7ae546d4-c8d7-47ed-95c6-386a980a2001</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_id_name</td><td style="vertical-align:top;">:</td><td><div>session_id_test</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_locked</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_masterapp</td><td style="vertical-align:top;">:</td><td><div>test</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_new</td><td style="vertical-align:top;">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_storage_type</td><td style="vertical-align:top;">:</td><td><div>file</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">show_toolbar</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">status</td><td style="vertical-align:top;">:</td><td><div>200</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">view</td><td style="vertical-align:top;">:</td><td><div>default/index.html</div></td></tr></table></div>'
+tRp293
+sS'locals'
+p294
+(dp295
+S'handlers'
+p296
+S'[<pydal.helpers.classes.TimingHandler object>]'
+p297
+sS'self'
+p298
+S'<pydal.adapters.postgres.PostgrePsyco object>'
+p299
+sg52
+S'(\'SELECT "auth_user"."id", "auth_user"."first_name...r" WHERE ("auth_user"."id" > 0) LIMIT 1 OFFSET 0;\',)'
+p300
+sS'handler'
+p301
+S'<pydal.helpers.classes.TimingHandler object>'
+p302
+sS'command'
+p303
+S'\'SELECT "auth_user"."id", "auth_user"."first_name...r" WHERE ("auth_user"."id" > 0) LIMIT 1 OFFSET 0;\''
+p304
+sS'kwargs'
+p305
+g21
+sssS'traceback'
+p306
+S'Traceback (most recent call last):\n  File "/Users/nic/Dev/web2py/gluon/restricted.py", line 219, in restricted\n    exec(ccode, environment)\n  File "/Users/nic/Dev/web2py/applications/test/models/db_model.py", line 2, in <module>\n    if db(db.auth_user.id>0).isempty():\n  File "/Users/nic/Dev/web2py/gluon/packages/dal/pydal/objects.py", line 2363, in isempty\n    return not self.select(limitby=(0, 1), orderby_on_limitby=False)\n  File "/Users/nic/Dev/web2py/gluon/packages/dal/pydal/objects.py", line 2395, in select\n    return adapter.select(self.query, fields, attributes)\n  File "/Users/nic/Dev/web2py/gluon/packages/dal/pydal/adapters/base.py", line 763, in select\n    return self._select_aux(sql, fields, attributes, colnames)\n  File "/Users/nic/Dev/web2py/gluon/packages/dal/pydal/adapters/base.py", line 719, in _select_aux\n    rows = self._select_aux_execute(sql)\n  File "/Users/nic/Dev/web2py/gluon/packages/dal/pydal/adapters/base.py", line 713, in _select_aux_execute\n    self.execute(sql)\n  File "/Users/nic/Dev/web2py/gluon/packages/dal/pydal/adapters/__init__.py", line 67, in wrap\n    return f(*args, **kwargs)\n  File "/Users/nic/Dev/web2py/gluon/packages/dal/pydal/adapters/base.py", line 413, in execute\n    rv = self.cursor.execute(command, *args[1:], **kwargs)\nProgrammingError: relation "auth_user" does not exist\nLINE 1: ...password_key", "auth_user"."registration_id" FROM "auth_user...\n                                                             ^\n\n'
+p307
+s.

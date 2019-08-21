@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en" class="high">
+
+<head>
+    <meta charset="utf-8">
+    <!-- Always force latest IE rendering engine or request Chrome Frame -->
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+    <meta name="viewport" content="width=device-width, minimal-ui, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+    <!-- Apple Touch -->
+    <link rel="stylesheet" type="text/css" href="{{=URL('static', 'css/app.css')}}" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{=URL('static','images/apple-touch-icon-144-precomposed.png')}}">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="{{=URL('static','images/apple-touch-icon-114-precomposed.png')}}">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="{{=URL('static','images/apple-touch-icon-72-precomposed.png')}}">
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="{{=URL('static','images/apple-touch-icon-57-precomposed.png')}}">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="{{=URL('static','images/favicon.png')}}">
+    <!-- Use title if it's in the page YAML frontmatter -->
+    <title>Demo</title>
+    <script type="text/javascript">
+    var polyfilter_scriptpath = "{{=URL('static','js/polyfills/filters')}}/";
+    window.polyfilter_skip_stylesheets = true
+    </script>
+
+    <script src="{{=URL('static','js/jquery.js')}}"></script>
+    {{block page_js}}{{end page_js}}
+
+
+    <link href="{{=URL('static','css/application.css')}}" rel="stylesheet" type="text/css" />
+    <link href="{{=URL('static','css/style.css')}}" rel="stylesheet" type="text/css">
+    {{include 'web2py_ajax.html'}} <!-- this includes jquery.js, calendar.js/.css and web2py.js -->
+
+</head>
+
+<body class="high emerald-default htmls htmls_pages htmls_pages_sign_in" style="max-width: 500px; margin: 0 auto;">
+
+    <div class="alert alert-danger" style="visibility: hidden;" role="alert">{{=response.flash or ''}}</div>
+
+    <div class="em-page-center-parent" style="padding:30px;">
+        <div class="em-page-center">
+            <div class="container">
+                <div class="row">
+                    <!--<div class="col-sm-6 col-sm-offset-3 col-lg-4 col-lg-offset-4">-->
+                    <div class="col-sm-6 col-sm-offset-3">
+                        <div class="actionable" id="actionable-sign-in">
+                            <div class="actionable-front component-shadow">
+                                <div class="panel">
+                                    <div class="panel-body">
+                                        <div class="text-center col" style="font-size: 30px; padding-top: 40px;padding-bottom:20px;">
+                                            <!-- <img class="img-circle" src="{{=URL('static','images/logo.png')}}" style="width: 220px" /> -->
+                                            <span class="text-gradient-info-dk"> Iniciar sesión</span>
+                                        </div>
+                                        {{include}}
+                                        <br>
+                                        <img src="{{=URL('static','images/logo.png')}}" style="width:250px;margin-bottom: 30px;margin-left: 26%;"/>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="text-center" style="color:black;">
+                            Todos los derechos reservados {{=request.now.year}} &copy;. 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Needed by BSE.Mq.screen() helper in utils.js -->
+    <div id="mq"></div>
+    <!-- Needed by EmVars helper in _emerald.js -->
+    <div id="emvars"></div>
+
+</body>
+
+    <!-- <script src="{{=URL('static','js/bootstrap.min.js')}}"></script>
+    <script src="{{#=URL('static','js/web2py-bootstrap3.js')}}"></script>-->
+    {{block page_js}}{{end page_js}}
+
+
+</html>

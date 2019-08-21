@@ -1,0 +1,39 @@
+{{extend 'login_layout.html'}}
+<div class="padded">
+
+    <form action="#" method="POST">
+        <div class="form-group email required">
+            <!--<input class="string email required form-control" maxlength="255" name="user" placeholder="Usuario" rel="jvfloat">-->
+            {{form.custom.widget.email['_class']='string form-control email'}}
+            {{form.custom.widget.email['_placeholder']='Email'}}
+            {{form.custom.widget.email['_required']='required'}}
+            {{=form.custom.widget.email}}
+        </div>
+        <div class="form-group password required">
+            <!--<input class="password required form-control" name="password" placeholder="Password" type="password" rel="jvfloat">-->
+            {{form.custom.widget.password['_class']='password form-control'}}
+            {{form.custom.widget.password['_placeholder']='Contraseña'}}
+            {{form.custom.widget.password['_required']='required'}}
+            {{=form.custom.widget.password}}
+        </div>
+        <div class="form-group">
+            {{if request.get_vars.error:}}
+                <h4>Error</h4>
+            {{pass}}
+        </div>
+        <div class="form-group actions">
+            <button class="btn btn-success-lt btn-block actionable-action" name="commit" type="submit" style="background-color:#116ca5">Ingresar</button>
+        </div>
+    {{=form.custom.end}}
+</div>
+
+{{block page_js}}
+<script>
+    jQuery("#web2py_user_form input:visible:enabled:first").focus();
+{{if request.args(0)=='register':}}
+    web2py_validate_entropy(jQuery('#auth_user_password'),100);
+{{elif request.args(0)=='change_password':}}
+    web2py_validate_entropy(jQuery('#no_table_new_password'),100);
+{{pass}}
+</script>
+{{end page_js}}

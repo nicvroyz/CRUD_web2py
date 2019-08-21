@@ -1,0 +1,67 @@
+{{extend 'custom_layout.html'}}
+
+<div class="panel panel-primary gradient-diag1">
+    <div class="card panel-body" style="max-width:535px;">
+            <div class="row" style="background-color: #039c74;color: #fff;margin:1px;max-width:533px;">
+                    <span style="font-size: 18px; padding:10px 10px 0px 30px;">Registro de usuario</span>
+                    <div style="padding-bottom:10px;margin-left:70%;" class="pull-right btn-formulario">
+                <a href="{{=URL('user','index')}}" style="font-size: 14px; color:#fff"><span class="fa fa-list-ul"></span> Listado de usuarios</a>
+            </div>
+    </div>
+
+    <div class="form-row col-xl-12" style="margin-left: 25px; max-width:533px;">
+        {{=form.custom.begin}}
+
+        <div class="form-group col-md-12 xl-12" style="margin:0 auto;padding-top:20px;">
+            <label class="control-label">
+                Nombre 
+             </label>
+            <div class="text-center">
+                    {{form.custom.widget.first_name['_style']='width:400px'}}
+                    {{form.custom.widget.first_name['_required']='required'}}
+                    {{=form.custom.widget.first_name}}
+            </div>
+        </div>
+        <div class="form-group col-md-12" style="padding-top:20px;">
+            <label class="control-label">
+                Apellido
+             </label>
+            <div class="text-center">
+                    {{form.custom.widget.last_name['_style']='width:400px'}}
+                    {{form.custom.widget.last_name['_required']='required'}}
+                    {{=form.custom.widget.last_name}}
+            </div>
+        </div>
+        <div class="form-group col-md-12" style="padding-top:20px;">
+            <label class="control-label">
+                Email
+             </label>
+            <div class="text-center">
+                    {{form.custom.widget.email['_style']='width:400px'}}
+                    {{form.custom.widget.email['_required']='required'}}
+                    {{=form.custom.widget.email}}
+            </div>
+        </div>
+
+        <div class="form-group col-md-12 " style="padding-top:20px;">
+            <label class="control-label">
+                Contraseña
+             </label>
+            <div class="text-center">
+                    {{form.custom.widget.password['_style']='width:400px'}}
+                    {{form.custom.widget.password['_required']='required'}}
+                    {{=form.custom.widget.password}}
+            </div>
+        </div>
+            <div class="col-md-12 text-center" style="padding:30px; padding-left: 0px;">
+                <input type="submit" style="background-color: #039c74; color: white;" class="btn" value="Guardar" />
+            </div>
+    
+        {{=form.custom.end}}
+    
+        {{#=form}}
+    </div>
+</div>
+
+{{block page_js}}
+{{end page_js}}

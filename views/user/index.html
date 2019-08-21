@@ -1,0 +1,54 @@
+{{extend 'custom_layout.html'}}
+
+<div class="panel panel-primary gradient-diag1">
+	<div class="card panel-body" style="max-width:750px;">
+			<div class="row" style="background-color: #039c74;color: #fff;margin:1px;max-width:750px;">
+					<span style="font-size: 18px; padding:10px 10px 0px 30px;">Usuarios en sistema</span>
+					<div style="padding-bottom:10px;margin-left:70%;" class="pull-right btn-formulario">
+				<a href="{{=URL('user','new')}}" style="font-size:14px;color:#fff"><span class="fa fa-user-plus"></span> Nuevo Usuario</a>
+			</div>
+		</div>
+		{{if dataset:}}
+			<table id="myTable" class="table table-stripped table-condensed table-responsive" style="width: 100%;" cellspacing="0">
+				<thead>
+					<tr class="tr-elements">
+						<th scope="col">ID</th>
+						<th scope="col">Nombre usuario</th>
+						<th scope="col">Correo </th>
+						<th scope="col">Opciones</th>
+					</tr>
+				</thead>
+				<tbody>
+					{{for user in dataset:}}
+					<tr class="tr-content">
+						<td>{{=user.id}}</td>
+						<td>{{=user.first_name}} {{=user.last_name}}</td>
+						<td>{{=user.email}}</td>
+						<td>
+							<a href="{{=URL('user','edit')}}/{{=user.id}}" style="margin-left:15px;"><span class="fa fa-pencil text-warning lead"></span> Editar</a>
+							<a class="btn-eliminar-usuario" href="{{=URL('user','delete')}}/{{=user.id}}" style="margin-left:15px;"><span class="fa fa-trash-o text-danger lead"></span> Eliminar</a>
+						</td>
+						<td>
+							<a class="btn" href="{{=URL('project_user','new')}}/{{=user.id}}" style="margin-left:15px;"><span class="fa fa-plus"></span> Asignar proyecto</a>
+						</td>
+					</tr>
+					{{pass}}
+				</tbody>
+			</table>
+		{{else:}}
+			<h4>No hay usuarios registrados</h4>
+		{{pass}}
+	</div>
+</div>
+
+{{block page_js}}
+<script>
+    $(document).ready(function(){
+        $(document).on('click', '.btn-eliminar-usuario', function(e){
+            if(!confirm('¿Está seguro que desea eliminar este usuario?')) {
+                e.preventDefault();
+            }
+        });
+    });
+</script>
+{{end page_js}}

@@ -1,0 +1,100 @@
+{{extend 'custom_layout.html'}}
+
+<div class="panel panel-primary gradient-diag1">
+	<div class="card panel-body" style="min-width:800px;max-width:800px;">
+		<div class="row" style="background-color:#116ca5;color: #fff;margin:1px;min-width:790px;max-width:800px;">
+			<span style="font-size: 18px; padding:10px 10px 0px 30px;">Lista de empleados</span>
+			<div style="padding-bottom:10px;margin-left:80%;" class="pull-right btn-formulario">
+				<a href="{{=URL('employee','new')}}" style="font-size:14px;color:#fff"><span class="fa fa-plus"></span> Nuevo registro</a>
+			</div>
+			<div class="input-group col-md-6" style="max-width:300px; padding-bottom:10px;">
+                    <div class="input-group-prepend" >
+                      <span class="input-group-text" id="addon-wrapping"> <i class="fa fa-search"></i></span>
+					  <input class="form-control" id="search" type="text" placeholder="Buscar..">                    
+					</div>
+			</div>
+			<div class="input-group col-md-6" style="max-width:300px; padding-bottom:10px;">
+					<div class="input-group-prepend" >
+					  <span class="input-group-text" id="addon-wrapping"> <i class="fa fa-file"></i></span>
+						<select class="form-control" name="filter" style="min-width:200px;">
+							<option data-project="0">Filtrar por.. </option>
+							  <option id="name"> Nombre </option>
+							  <option id="profession"> Profesión </option>
+						</select>
+					</div>
+			</div>
+		</div>
+		{{if dataset:}}
+		<table id="myTable" class="table table-stripped table-condensed table-responsive" style="width: auto;" cellspacing="0">
+			<thead>
+				<tr class="tr-elements">
+					<th scope="col">RUT</th>
+					<th scope="col">Nombre</th>
+					<th scope="col">Apellido</th>
+					<th scope="col">Fecha nacimiento</th>
+					<th scope="col">Profesión</th>
+					<th scope="col">Correo</th>
+					<th scope="col">Opciones</th>
+				</tr>
+			</thead>
+			<tbody>
+				{{for employee in dataset:}}
+				<tr class="tr-content">
+					<td>{{=employee.rut}}</td>
+					<td>{{=employee.first_name}}</td>
+					<td>{{=employee.last_name}}</td>
+					<td>{{=employee.birth_date}}</td>
+					<td>{{=employee.profession_id.name_profession}}</td>
+					<td>{{=employee.email}}</td>
+					<td>
+						<a href="{{=URL('employee','edit')}}/{{=employee.id}}" style="margin-left:15px;"><span class="fa fa-pencil text-warning lead"></span></a>
+           				 <a class="btn-eliminar" href="{{=URL('employee','delete')}}/{{=employee.id}}" style="margin-left:15px;"><span class="fa fa-trash-o text-danger lead"></span></a>
+					</td>
+				</tr>
+				{{pass}}
+			</tbody>
+		</table>
+		{{else:}}
+        <h4 style="text-align: center; margin: 0 auto; padding-top: 50px;padding-bottom:30px;">No hay empleados registrados.</h4>
+		{{pass}}
+	</div>
+</div>
+
+{{block page_js}}
+<script>
+    $(document).ready(function(){
+        $(document).on('click', '.btn-eliminar', function(e){
+            if(!confirm('¿Está seguro que desea eliminar este empleado?')) {
+                e.preventemployee();
+            }
+        });
+	});
+	$(document).ready(function(){
+		$("#search").on("keyup", function() {
+		  var value = $(this).val().toLowerCase();
+		  $("#myTable tr").filter(function() {
+			$(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+		  });
+		});
+	  });
+
+
+	  function filterEmp(){
+			prof = "{{employee.profession_id.name_profession}}"
+			console.log(prof)
+			$('option[name=profession] option').each(function(i,e){
+			if($(e).data('profession') == prof || $(e).data('profession') == 0){
+				$(e).show()
+			}else{
+				$(e).hide()
+			}
+			})
+			$('select[name=filter]').val('')
+	  }
+	  
+	  $("select[name=filter]").on('change', function(){
+		filterEmp()
+	  })
+
+</script>
+{{end page_js}}

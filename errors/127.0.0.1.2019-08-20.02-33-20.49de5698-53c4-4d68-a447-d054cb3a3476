@@ -1,0 +1,1182 @@
+(dp1
+S'output'
+p2
+S"<type 'exceptions.TypeError'> can't pickle instancemethod objects"
+p3
+sS'layer'
+p4
+S'/Users/nic/Dev/web2py/applications/test/models/db_model.py'
+p5
+sS'code'
+p6
+S'<code object <module> at 0x112cef5b0, file "/Users/nic/Dev/web2py/applications/test/models/db_model.py", line 3>'
+p7
+sS'snapshot'
+p8
+(dp9
+S'exception'
+p10
+(dp11
+S'__getslice__'
+p12
+S"<method-wrapper '__getslice__' of exceptions.TypeError object>"
+p13
+sS'__str__'
+p14
+S"<method-wrapper '__str__' of exceptions.TypeError object>"
+p15
+sS'__reduce__'
+p16
+S'<built-in method __reduce__ of exceptions.TypeError object>'
+p17
+sS'__dict__'
+p18
+S'{}'
+p19
+sS'message'
+p20
+S'"can\'t pickle instancemethod objects"'
+p21
+sS'__sizeof__'
+p22
+S'<built-in method __sizeof__ of exceptions.TypeError object>'
+p23
+sS'__init__'
+p24
+S"<method-wrapper '__init__' of exceptions.TypeError object>"
+p25
+sS'__setattr__'
+p26
+S"<method-wrapper '__setattr__' of exceptions.TypeError object>"
+p27
+sS'__reduce_ex__'
+p28
+S'<built-in method __reduce_ex__ of exceptions.TypeError object>'
+p29
+sS'__new__'
+p30
+S'<built-in method __new__ of type object>'
+p31
+sS'__format__'
+p32
+S'<built-in method __format__ of exceptions.TypeError object>'
+p33
+sS'__class__'
+p34
+S"<type 'exceptions.TypeError'>"
+p35
+sS'__doc__'
+p36
+S"'Inappropriate argument type.'"
+p37
+sS'__getitem__'
+p38
+S"<method-wrapper '__getitem__' of exceptions.TypeError object>"
+p39
+sS'__setstate__'
+p40
+S'<built-in method __setstate__ of exceptions.TypeError object>'
+p41
+sS'__getattribute__'
+p42
+S"<method-wrapper '__getattribute__' of exceptions.TypeError object>"
+p43
+sS'args'
+p44
+S'("can\'t pickle instancemethod objects",)'
+p45
+sS'__subclasshook__'
+p46
+S'<built-in method __subclasshook__ of type object>'
+p47
+sS'__unicode__'
+p48
+S'<built-in method __unicode__ of exceptions.TypeError object>'
+p49
+sS'__delattr__'
+p50
+S"<method-wrapper '__delattr__' of exceptions.TypeError object>"
+p51
+sS'__repr__'
+p52
+S"<method-wrapper '__repr__' of exceptions.TypeError object>"
+p53
+sS'__hash__'
+p54
+S"<method-wrapper '__hash__' of exceptions.TypeError object>"
+p55
+ssS'evalue'
+p56
+S"can't pickle instancemethod objects"
+p57
+sS'request'
+p58
+cgluon.html
+XML_unpickle
+p59
+(S'sGp\x00\x00<div><table><tr><td style="font-weight:bold;vertical-align:top;">ajax</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">application</td><td style="vertical-align:top;">:</td><td><div>test</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">args</td><td style="vertical-align:top;">:</td><td><div><table></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">cid</td><td style="vertical-align:top;">:</td><td><div>None</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">client</td><td style="vertical-align:top;">:</td><td><div>127.0.0.1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">controller</td><td style="vertical-align:top;">:</td><td><div>employee</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">cookies</td><td style="vertical-align:top;">:</td><td><div><table><tr><td style="font-weight:bold;vertical-align:top;">session_id_admin</td><td style="vertical-align:top;">:</td><td><div>127.0.0.1-3b2ec212-1560-4971-a9aa-aa269d6b38e5<table><tr><td style="font-weight:bold;vertical-align:top;">comment</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">domain</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">expires</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">httponly</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">max-age</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">path</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">samesite</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">secure</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">version</td><td style="vertical-align:top;">:</td><td><div></div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_id_sonoline</td><td style="vertical-align:top;">:</td><td><div>127.0.0.1-671dc851-c68e-43fc-89c2-9cc4cf9460bd<table><tr><td style="font-weight:bold;vertical-align:top;">comment</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">domain</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">expires</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">httponly</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">max-age</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">path</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">samesite</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">secure</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">version</td><td style="vertical-align:top;">:</td><td><div></div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_id_sonoline_player</td><td style="vertical-align:top;">:</td><td><div>127.0.0.1-e1927753-f3ea-4aa4-a5c3-6b1e4a994650<table><tr><td style="font-weight:bold;vertical-align:top;">comment</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">domain</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">expires</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">httponly</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">max-age</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">path</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">samesite</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">secure</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">version</td><td style="vertical-align:top;">:</td><td><div></div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_id_test</td><td style="vertical-align:top;">:</td><td><div>127.0.0.1-0d588566-6888-4eed-8b21-34cc78c84a81<table><tr><td style="font-weight:bold;vertical-align:top;">comment</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">domain</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">expires</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">httponly</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">max-age</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">path</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">samesite</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">secure</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">version</td><td style="vertical-align:top;">:</td><td><div></div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_id_welcome</td><td style="vertical-align:top;">:</td><td><div>127.0.0.1-2dfa75b7-a388-4f53-938a-b77296009d2f<table><tr><td style="font-weight:bold;vertical-align:top;">comment</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">domain</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">expires</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">httponly</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">max-age</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">path</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">samesite</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">secure</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">version</td><td style="vertical-align:top;">:</td><td><div></div></td></tr></table></div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">env</td><td style="vertical-align:top;">:</td><td><div><table><tr><td style="font-weight:bold;vertical-align:top;">HTTP_ACCEPT</td><td style="vertical-align:top;">:</td><td><div>text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_ACCEPT_ENCODING</td><td style="vertical-align:top;">:</td><td><div>gzip, deflate, br</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_ACCEPT_LANGUAGE</td><td style="vertical-align:top;">:</td><td><div>es-419,es;q=0.9</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_CACHE_CONTROL</td><td style="vertical-align:top;">:</td><td><div>max-age=0</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_CONNECTION</td><td style="vertical-align:top;">:</td><td><div>keep-alive</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_COOKIE</td><td style="vertical-align:top;">:</td><td><div>session_id_sonoline_player=127.0.0.1-e1927753-f3ea-4aa4-a5c3-6b1e4a994650; session_id_admin=127.0.0.1-3b2ec212-1560-4971-a9aa-aa269d6b38e5; session_id_sonoline=127.0.0.1-671dc851-c68e-43fc-89c2-9cc4cf9460bd; session_id_welcome=127.0.0.1-2dfa75b7-a388-4f53-938a-b77296009d2f; session_id_test=127.0.0.1-0d588566-6888-4eed-8b21-34cc78c84a81</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_HOST</td><td style="vertical-align:top;">:</td><td><div>127.0.0.1:8000</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_REFERER</td><td style="vertical-align:top;">:</td><td><div>http://127.0.0.1:8000/test/default/index</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_SEC_FETCH_MODE</td><td style="vertical-align:top;">:</td><td><div>navigate</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_SEC_FETCH_SITE</td><td style="vertical-align:top;">:</td><td><div>none</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_SEC_FETCH_USER</td><td style="vertical-align:top;">:</td><td><div>?1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_UPGRADE_INSECURE_REQUESTS</td><td style="vertical-align:top;">:</td><td><div>1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">HTTP_USER_AGENT</td><td style="vertical-align:top;">:</td><td><div>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">PATH_INFO</td><td style="vertical-align:top;">:</td><td><div>/test/employee/new</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">QUERY_STRING</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">REMOTE_ADDR</td><td style="vertical-align:top;">:</td><td><div>127.0.0.1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">REMOTE_PORT</td><td style="vertical-align:top;">:</td><td><div>59869</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">REQUEST_METHOD</td><td style="vertical-align:top;">:</td><td><div>GET</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">SCRIPT_NAME</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">SERVER_NAME</td><td style="vertical-align:top;">:</td><td><div>MacBook-Air-de-Nic.local</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">SERVER_PORT</td><td style="vertical-align:top;">:</td><td><div>8000</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">SERVER_PROTOCOL</td><td style="vertical-align:top;">:</td><td><div>HTTP/1.1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">SERVER_SOFTWARE</td><td style="vertical-align:top;">:</td><td><div>Rocket 1.2.6</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">app_folders</td><td style="vertical-align:top;">:</td><td><div>set([&#x27;/Users/nic/Dev/web2py/applications/sonoline_player&#x27;, &#x27;/Users/nic/Dev/web2py/applications/admin&#x27;, &#x27;/Users/nic/Dev/web2py/applications/welcome&#x27;, &#x27;/Users/nic/Dev/web2py/applications/test&#x27;, &#x27;/Users/nic/Dev/web2py/applications/sonoline&#x27;])</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">applications_parent</td><td style="vertical-align:top;">:</td><td><div>/Users/nic/Dev/web2py</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">cmd_args</td><td style="vertical-align:top;">:</td><td><div><table></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">cmd_options</td><td style="vertical-align:top;">:</td><td><div>&lt;Values at 0x1115ea4d0: {&#x27;verbose&#x27;: False, &#x27;ip&#x27;: &#x27;127.0.0.1&#x27;, &#x27;debuglevel&#x27;: 30, &#x27;with_scheduler&#x27;: False, &#x27;shutdown_timeout&#x27;: 5, &#x27;taskbar&#x27;: False, &#x27;with_coverage&#x27;: False, &#x27;pid_filename&#x27;: &#x27;httpserver.pid&#x27;, &#x27;maxthreads&#x27;: None, &#x27;softcron&#x27;: False, &#x27;server_name&#x27;: &#x27;MacBook-Air-de-Nic.local&#x27;, &#x27;bpython&#x27;: False, &#x27;nogui&#x27;: False, &#x27;port&#x27;: 8000, &#x27;print_errors&#x27;: False, &#x27;extcron&#x27;: False, &#x27;runcron&#x27;: False, &#x27;run_system_tests&#x27;: False, &#x27;test&#x27;: None, &#x27;folder&#x27;: &#x27;/Users/nic/Dev/web2py&#x27;, &#x27;config&#x27;: &#x27;&#x27;, &#x27;minthreads&#x27;: None, &#x27;shell&#x27;: None, &#x27;run&#x27;: &#x27;&#x27;, &#x27;log_filename&#x27;: &#x27;httpserver.log&#x27;, &#x27;profiler_dir&#x27;: None, &#x27;args&#x27;: [], &#x27;socket_timeout&#x27;: 5, &#x27;ssl_ca_certificate&#x27;: None, &#x27;scheduler&#x27;: None, &#x27;interfaces&#x27;: None, &#x27;ssl_private_key&#x27;: &#x27;&#x27;, &#x27;gae&#x27;: None, &#x27;password&#x27;: &#x27;******&#x27;, &#x27;request_queue_size&#x27;: 5, &#x27;ssl_certificate&#x27;: &#x27;&#x27;, &#x27;cronjob&#x27;: False, &#x27;numthreads&#x27;: None, &#x27;quiet&#x27;: False, &#x27;import_models&#x27;: False, &#x27;timeout&#x27;: 10, &#x27;plain&#x27;: False, &#x27;nobanner&#x27;: False}&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">db_sessions</td><td style="vertical-align:top;">:</td><td><div>set([])</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">debugging</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">gluon_parent</td><td style="vertical-align:top;">:</td><td><div>/Users/nic/Dev/web2py</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_accept</td><td style="vertical-align:top;">:</td><td><div>text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_accept_encoding</td><td style="vertical-align:top;">:</td><td><div>gzip, deflate, br</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_accept_language</td><td style="vertical-align:top;">:</td><td><div>es-419,es;q=0.9</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_cache_control</td><td style="vertical-align:top;">:</td><td><div>max-age=0</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_connection</td><td style="vertical-align:top;">:</td><td><div>keep-alive</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_cookie</td><td style="vertical-align:top;">:</td><td><div>session_id_sonoline_player=127.0.0.1-e1927753-f3ea-4aa4-a5c3-6b1e4a994650; session_id_admin=127.0.0.1-3b2ec212-1560-4971-a9aa-aa269d6b38e5; session_id_sonoline=127.0.0.1-671dc851-c68e-43fc-89c2-9cc4cf9460bd; session_id_welcome=127.0.0.1-2dfa75b7-a388-4f53-938a-b77296009d2f; session_id_test=127.0.0.1-0d588566-6888-4eed-8b21-34cc78c84a81</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_host</td><td style="vertical-align:top;">:</td><td><div>127.0.0.1:8000</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_referer</td><td style="vertical-align:top;">:</td><td><div>http://127.0.0.1:8000/test/default/index</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_sec_fetch_mode</td><td style="vertical-align:top;">:</td><td><div>navigate</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_sec_fetch_site</td><td style="vertical-align:top;">:</td><td><div>none</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_sec_fetch_user</td><td style="vertical-align:top;">:</td><td><div>?1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_upgrade_insecure_requests</td><td style="vertical-align:top;">:</td><td><div>1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">http_user_agent</td><td style="vertical-align:top;">:</td><td><div>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_jython</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_py2</td><td style="vertical-align:top;">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_pypy</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_source</td><td style="vertical-align:top;">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">local_hosts</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div>fe80::cb5:c84a:e02e:28b7%en0</div></td></tr><tr><td><div>::ffff:127.0.0.1</div></td></tr><tr><td><div>::1</div></td></tr><tr><td><div>MacBook-Air-de-Nic.local</div></td></tr><tr><td><div>1.0.0.127.in-addr.arpa</div></td></tr><tr><td><div>127.0.0.1</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">path_info</td><td style="vertical-align:top;">:</td><td><div>/test/employee/new</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">query_string</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">remote_addr</td><td style="vertical-align:top;">:</td><td><div>127.0.0.1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">remote_port</td><td style="vertical-align:top;">:</td><td><div>59869</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">request_method</td><td style="vertical-align:top;">:</td><td><div>GET</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">request_uri</td><td style="vertical-align:top;">:</td><td><div>/test/employee/new</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">script_name</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">server_name</td><td style="vertical-align:top;">:</td><td><div>MacBook-Air-de-Nic.local</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">server_port</td><td style="vertical-align:top;">:</td><td><div>8000</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">server_protocol</td><td style="vertical-align:top;">:</td><td><div>HTTP/1.1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">server_software</td><td style="vertical-align:top;">:</td><td><div>Rocket 1.2.6</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">web2py_path</td><td style="vertical-align:top;">:</td><td><div>/Users/nic/Dev/web2py</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">web2py_version</td><td style="vertical-align:top;">:</td><td><div>2.18.5-stable+timestamp.2019.04.08.04.22.03</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.errors</td><td style="vertical-align:top;">:</td><td><div>&lt;open file &#x27;&lt;stderr&gt;&#x27;, mode &#x27;w&#x27; at 0x10e27f1e0&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.file_wrapper</td><td style="vertical-align:top;">:</td><td><div>&lt;class wsgiref.util.FileWrapper at 0x10f39b530&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.input</td><td style="vertical-align:top;">:</td><td><div>&lt;socket._fileobject object at 0x11246d950&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.multiprocess</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.multithread</td><td style="vertical-align:top;">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.run_once</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.url_scheme</td><td style="vertical-align:top;">:</td><td><div>http</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi.version</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div>1</div></td></tr><tr><td><div>0</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_errors</td><td style="vertical-align:top;">:</td><td><div>&lt;open file &#x27;&lt;stderr&gt;&#x27;, mode &#x27;w&#x27; at 0x10e27f1e0&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_file_wrapper</td><td style="vertical-align:top;">:</td><td><div>&lt;class wsgiref.util.FileWrapper at 0x10f39b530&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_input</td><td style="vertical-align:top;">:</td><td><div>&lt;socket._fileobject object at 0x11246d950&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_multiprocess</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_multithread</td><td style="vertical-align:top;">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_run_once</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_url_scheme</td><td style="vertical-align:top;">:</td><td><div>http</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi_version</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div>1</div></td></tr><tr><td><div>0</div></td></tr></table></div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">extension</td><td style="vertical-align:top;">:</td><td><div>html</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">folder</td><td style="vertical-align:top;">:</td><td><div>/Users/nic/Dev/web2py/applications/test</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">function</td><td style="vertical-align:top;">:</td><td><div>new</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">global_settings</td><td style="vertical-align:top;">:</td><td><div><table><tr><td style="font-weight:bold;vertical-align:top;">app_folders</td><td style="vertical-align:top;">:</td><td><div>set([&#x27;/Users/nic/Dev/web2py/applications/sonoline_player&#x27;, &#x27;/Users/nic/Dev/web2py/applications/admin&#x27;, &#x27;/Users/nic/Dev/web2py/applications/welcome&#x27;, &#x27;/Users/nic/Dev/web2py/applications/test&#x27;, &#x27;/Users/nic/Dev/web2py/applications/sonoline&#x27;])</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">applications_parent</td><td style="vertical-align:top;">:</td><td><div>/Users/nic/Dev/web2py</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">cmd_args</td><td style="vertical-align:top;">:</td><td><div><table></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">cmd_options</td><td style="vertical-align:top;">:</td><td><div>&lt;Values at 0x1115ea4d0: {&#x27;verbose&#x27;: False, &#x27;ip&#x27;: &#x27;127.0.0.1&#x27;, &#x27;debuglevel&#x27;: 30, &#x27;with_scheduler&#x27;: False, &#x27;shutdown_timeout&#x27;: 5, &#x27;taskbar&#x27;: False, &#x27;with_coverage&#x27;: False, &#x27;pid_filename&#x27;: &#x27;httpserver.pid&#x27;, &#x27;maxthreads&#x27;: None, &#x27;softcron&#x27;: False, &#x27;server_name&#x27;: &#x27;MacBook-Air-de-Nic.local&#x27;, &#x27;bpython&#x27;: False, &#x27;nogui&#x27;: False, &#x27;port&#x27;: 8000, &#x27;print_errors&#x27;: False, &#x27;extcron&#x27;: False, &#x27;runcron&#x27;: False, &#x27;run_system_tests&#x27;: False, &#x27;test&#x27;: None, &#x27;folder&#x27;: &#x27;/Users/nic/Dev/web2py&#x27;, &#x27;config&#x27;: &#x27;&#x27;, &#x27;minthreads&#x27;: None, &#x27;shell&#x27;: None, &#x27;run&#x27;: &#x27;&#x27;, &#x27;log_filename&#x27;: &#x27;httpserver.log&#x27;, &#x27;profiler_dir&#x27;: None, &#x27;args&#x27;: [], &#x27;socket_timeout&#x27;: 5, &#x27;ssl_ca_certificate&#x27;: None, &#x27;scheduler&#x27;: None, &#x27;interfaces&#x27;: None, &#x27;ssl_private_key&#x27;: &#x27;&#x27;, &#x27;gae&#x27;: None, &#x27;password&#x27;: &#x27;******&#x27;, &#x27;request_queue_size&#x27;: 5, &#x27;ssl_certificate&#x27;: &#x27;&#x27;, &#x27;cronjob&#x27;: False, &#x27;numthreads&#x27;: None, &#x27;quiet&#x27;: False, &#x27;import_models&#x27;: False, &#x27;timeout&#x27;: 10, &#x27;plain&#x27;: False, &#x27;nobanner&#x27;: False}&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">db_sessions</td><td style="vertical-align:top;">:</td><td><div>set([])</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">debugging</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">gluon_parent</td><td style="vertical-align:top;">:</td><td><div>/Users/nic/Dev/web2py</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_jython</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_py2</td><td style="vertical-align:top;">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_pypy</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_source</td><td style="vertical-align:top;">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">local_hosts</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div>fe80::cb5:c84a:e02e:28b7%en0</div></td></tr><tr><td><div>::ffff:127.0.0.1</div></td></tr><tr><td><div>::1</div></td></tr><tr><td><div>MacBook-Air-de-Nic.local</div></td></tr><tr><td><div>1.0.0.127.in-addr.arpa</div></td></tr><tr><td><div>127.0.0.1</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">web2py_version</td><td style="vertical-align:top;">:</td><td><div>2.18.5-stable+timestamp.2019.04.08.04.22.03</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_https</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_local</td><td style="vertical-align:top;">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_restful</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_scheduler</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">is_shell</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">method</td><td style="vertical-align:top;">:</td><td><div>GET</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">now</td><td style="vertical-align:top;">:</td><td><div>datetime.datetime(2019, 8, 20, 2, 33, 20, 895800)</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">raw_args</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">raw_extension</td><td style="vertical-align:top;">:</td><td><div>None</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">url</td><td style="vertical-align:top;">:</td><td><div>/test/employee/new</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">utcnow</td><td style="vertical-align:top;">:</td><td><div>datetime.datetime(2019, 8, 20, 6, 33, 20, 895810)</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">wsgi</td><td style="vertical-align:top;">:</td><td><div>&lt;gluon.main.LazyWSGI object at 0x11267ef50&gt;</div></td></tr></table></div>'
+tRp60
+sS'frames'
+p61
+(lp62
+(dp63
+S'file'
+p64
+S'/Users/nic/Dev/web2py/gluon/restricted.py'
+p65
+sS'dump'
+p66
+(dp67
+S'environment'
+p68
+S"{'A': <class 'gluon.html.A'>, 'ANY_OF': <class 'pydal.validators.ANY_OF'>, 'ASSIGNJS': <function ASSIGNJS>, 'AppConfig': <function AppConfig>, 'Auth': <class 'gluon.tools.Auth'>, 'B': <class 'gluon.html.B'>, 'BEAUTIFY': <class 'gluon.html.BEAUTIFY'>, 'BODY': <class 'gluon.html.BODY'>, 'BR': <class 'gluon.html.BR'>, 'BUTTON': <class 'gluon.html.BUTTON'>, ...}"
+p69
+sS'ccode'
+p70
+S'<code object <module> at 0x112cef5b0, file "/Use...py/applications/test/models/db_model.py", line 3>'
+p71
+ssS'lnum'
+p72
+I219
+sS'lines'
+p73
+(dp74
+I214
+S'    if environment is None:'
+p75
+sI215
+S'        environment = {}'
+p76
+sI216
+S"    environment['__file__'] = layer"
+p77
+sI217
+S"    environment['__name__'] = '__restricted__'"
+p78
+sI218
+S'    try:'
+p79
+sI219
+S'        exec(ccode, environment)'
+p80
+sI220
+S'    except HTTP:'
+p81
+sI221
+S'        raise'
+p82
+sI222
+S'    except RestrictedError:'
+p83
+sI223
+S'        # do not encapsulate (obfuscate) the original RestrictedError'
+p84
+ssS'call'
+p85
+S'(ccode=<code object <module> at 0x112cef5b0, file "/Use...py/applications/test/models/db_model.py", line 3>, environment={\'A\': <class \'gluon.html.A\'>, \'ANY_OF\': <class \'pydal.validators.ANY_OF\'>, \'ASSIGNJS\': <function ASSIGNJS>, \'AppConfig\': <function AppConfig>, \'Auth\': <class \'gluon.tools.Auth\'>, \'B\': <class \'gluon.html.B\'>, \'BEAUTIFY\': <class \'gluon.html.BEAUTIFY\'>, \'BODY\': <class \'gluon.html.BODY\'>, \'BR\': <class \'gluon.html.BR\'>, \'BUTTON\': <class \'gluon.html.BUTTON\'>, ...}, layer=\'/Users/nic/Dev/web2py/applications/test/models/db_model.py\', scode=<code object <module> at 0x112cef5b0, file "/Use...py/applications/test/models/db_model.py", line 3>)'
+p86
+sS'func'
+p87
+S'restricted'
+p88
+sa(dp89
+g64
+S'/Users/nic/Dev/web2py/applications/test/models/db_model.py'
+p90
+sg66
+(dp91
+S'builtinformat'
+p92
+S'<built-in function format>'
+p93
+ssg72
+I28
+sg73
+(dp94
+I21
+S'    Field(\'gender_id\', \'reference gender\' ,SQLFORM.widgets.options.widget, requires=IS_NOT_EMPTY(error_message="Este campo es obligatorio.")),'
+p95
+sI22
+S'    Field(\'birth_date\', \'date\',requires=IS_NOT_EMPTY(error_message="Este campo es obligatorio.")),'
+p96
+sI23
+S'    Field(\'email\',requires=IS_NOT_EMPTY(error_message="Este campo es obligatorio.")),'
+p97
+sI24
+S"    Field('phone','integer'),"
+p98
+sI25
+S"    Field('address'),"
+p99
+sI26
+S'    Field(\'profession_id\',\'reference profession\', SQLFORM.widgets.options.widget, requires=IS_NOT_EMPTY(error_message="Este campo es obligatorio.")),'
+p100
+sI27
+S'    Field(\'years_exp\', \'integer\',SQLFORM.widgets.options.widget,requires=IS_NOT_EMPTY(error_message="Este campo es obligatorio.")),'
+p101
+sI28
+S"    format='%(first_name)s'"
+p102
+sI29
+S')'
+sI30
+S''
+ssg85
+S'()'
+p103
+sg87
+S'<module>'
+p104
+sa(dp105
+g64
+S'/Users/nic/Dev/web2py/gluon/packages/dal/pydal/base.py'
+p106
+sg66
+(dp107
+S'fields'
+p108
+S'(<pydal.objects.Field object>, <pydal.objects.Field object>, <pydal.objects.Field object>, <pydal.objects.Field object>, <pydal.objects.Field object>, <pydal.objects.Field object>, <pydal.objects.Field object>, <pydal.objects.Field object>, <pydal.objects.Field object>)'
+p109
+sS'self'
+p110
+S'<DAL uri="postgres://******@localhost/test">'
+p111
+sS'tablename'
+p112
+S"'employee'"
+p113
+sS'kwargs'
+p114
+S"{'format': '%(first_name)s'}"
+p115
+sS'table'
+p116
+S'undefined'
+p117
+sS'self.lazy_define_table'
+p118
+S'<bound method DAL.lazy_define_table of <DAL uri="postgres://******@localhost/test">>'
+p119
+ssg72
+I592
+sg73
+(dp120
+I587
+S'        if self._lazy_tables:'
+p121
+sI588
+S'            if tablename not in self._LAZY_TABLES or redefine:'
+p122
+sI589
+S'                self._LAZY_TABLES[tablename] = (tablename, fields, kwargs)'
+p123
+sI590
+S'            table = None'
+p124
+sI591
+S'        else:'
+p125
+sI592
+S'            table = self.lazy_define_table(tablename, *fields, **kwargs)'
+p126
+sI593
+S'        if tablename not in self.tables:'
+p127
+sI594
+S'            self.tables.append(tablename)'
+p128
+sI595
+S'        return table'
+p129
+sI596
+S''
+ssg85
+S'(self=<DAL uri="postgres://******@localhost/test">, tablename=\'employee\', *fields=(<pydal.objects.Field object>, <pydal.objects.Field object>, <pydal.objects.Field object>, <pydal.objects.Field object>, <pydal.objects.Field object>, <pydal.objects.Field object>, <pydal.objects.Field object>, <pydal.objects.Field object>, <pydal.objects.Field object>), **kwargs={\'format\': \'%(first_name)s\'})'
+p130
+sg87
+S'define_table'
+p131
+sa(dp132
+g64
+S'/Users/nic/Dev/web2py/gluon/packages/dal/pydal/base.py'
+p133
+sg66
+(dp134
+S'polymodel'
+p135
+S'None'
+p136
+ssg72
+I626
+sg73
+(dp137
+I621
+S'            try:'
+p138
+sI622
+S'                GLOBAL_LOCKER.acquire()'
+p139
+sI623
+S'                self._adapter.create_table('
+p140
+sI624
+S'                    table, migrate=migrate,'
+p141
+sI625
+S'                    fake_migrate=fake_migrate,'
+p142
+sI626
+S'                    polymodel=polymodel)'
+p143
+sI627
+S'            finally:'
+p144
+sI628
+S'                GLOBAL_LOCKER.release()'
+p145
+sI629
+S'        else:'
+p146
+sI630
+S'            table._dbt = None'
+p147
+ssg85
+S'(self=<DAL uri="postgres://******@localhost/test">, tablename=\'employee\', *fields=(<pydal.objects.Field object>, <pydal.objects.Field object>, <pydal.objects.Field object>, <pydal.objects.Field object>, <pydal.objects.Field object>, <pydal.objects.Field object>, <pydal.objects.Field object>, <pydal.objects.Field object>, <pydal.objects.Field object>), **kwargs={\'format\': \'%(first_name)s\'})'
+p148
+sg87
+S'lazy_define_table'
+p149
+sa(dp150
+g64
+S'/Users/nic/Dev/web2py/gluon/packages/dal/pydal/adapters/base.py'
+p151
+sg66
+(dp152
+S'self'
+p153
+S'<pydal.adapters.postgres.PostgrePsyco object>'
+p154
+sS'args'
+p155
+S'(<Table employee (id, first_name, last_name, gend...email, phone, address, profession_id, years_exp)>,)'
+p156
+sS'self.migrator'
+p157
+S'<pydal.migrator.Migrator object>'
+p158
+sS'self.migrator.create_table'
+p159
+S'<bound method Migrator.create_table of <pydal.migrator.Migrator object>>'
+p160
+sS'kwargs'
+p161
+S"{'fake_migrate': False, 'migrate': True, 'polymodel': None}"
+p162
+ssg72
+I798
+sg73
+(dp163
+I800
+S'    def _drop_table_cleanup(self, table):'
+p164
+sI801
+S'        super(SQLAdapter, self)._drop_table_cleanup(table)'
+p165
+sI802
+S'        if table._dbt:'
+p166
+sI793
+S''
+sI794
+S'    def bulk_insert(self, table, items):'
+p167
+sI795
+S'        return [self.insert(table, item) for item in items]'
+p168
+sI796
+S''
+sI797
+S'    def create_table(self, *args, **kwargs):'
+p169
+sI798
+S'        return self.migrator.create_table(*args, **kwargs)'
+p170
+sI799
+S''
+ssg85
+S"(self=<pydal.adapters.postgres.PostgrePsyco object>, *args=(<Table employee (id, first_name, last_name, gend...email, phone, address, profession_id, years_exp)>,), **kwargs={'fake_migrate': False, 'migrate': True, 'polymodel': None})"
+p171
+sg87
+S'create_table'
+p172
+sa(dp173
+g64
+S'/Users/nic/Dev/web2py/gluon/packages/dal/pydal/migrator.py'
+p174
+sg66
+(dp175
+S'fake_migrate'
+p176
+S'False'
+p177
+ssg72
+I318
+sg73
+(dp178
+I320
+S'        return query'
+p179
+sI321
+S''
+sI322
+S'    def _fix(self, item):'
+p180
+sI313
+S'            if sql_fields != sql_fields_old:'
+p181
+sI314
+S'                self.migrate_table('
+p182
+sI315
+S'                    table,'
+p183
+sI316
+S'                    sql_fields, sql_fields_old,'
+p184
+sI317
+S'                    sql_fields_aux, None,'
+p185
+sI318
+S'                    fake_migrate=fake_migrate'
+p186
+sI319
+S'                    )'
+p187
+ssg85
+S'(self=<pydal.migrator.Migrator object>, table=<Table employee (id, first_name, last_name, gend...email, phone, address, profession_id, years_exp)>, migrate=True, fake_migrate=False, polymodel=None)'
+p188
+sg87
+g172
+sa(dp189
+g64
+S'/Users/nic/Dev/web2py/gluon/packages/dal/pydal/migrator.py'
+p190
+sg66
+(dp191
+S'self.save_dbt'
+p192
+S'<bound method Migrator.save_dbt of <pydal.migrator.Migrator object>>'
+p193
+sS'self'
+p194
+S'<pydal.migrator.Migrator object>'
+p195
+sS'sql_fields_current'
+p196
+S'{\'address\': {\'length\': 512, \'notnull\': False, \'raw_rname\': \'address\', \'rname\': \'"address"\', \'sortable\': 8, \'sql\': \'VARCHAR(512)\', \'type\': \'string\', \'unique\': False}, \'birth_date\': {\'length\': 512, \'notnull\': False, \'raw_rname\': \'birth_date\', \'rname\': \'"birth_date"\', \'sortable\': 5, \'sql\': \'DATE\', \'type\': \'date\', \'unique\': False}, \'email\': {\'length\': 512, \'notnull\': False, \'raw_rname\': \'email\', \'rname\': \'"email"\', \'sortable\': 6, \'sql\': \'VARCHAR(512)\', \'type\': \'string\', \'unique\': False}, \'first_name\': {\'length\': 512, \'notnull\': False, \'raw_rname\': \'first_name\', \'rname\': \'"first_name"\', \'sortable\': 2, \'sql\': \'VARCHAR(512)\', \'type\': \'string\', \'unique\': False}, \'gender\': {\'length\': 512, \'notnull\': False, \'raw_rname\': \'gender\', \'rname\': \'"gender"\', \'sortable\': 4, \'sql\': \'VARCHAR(512)\', \'type\': \'string\', \'unique\': False}, \'id\': {\'length\': 512, \'notnull\': False, \'raw_rname\': \'id\', \'rname\': \'"id"\', \'sortable\': 1, \'sql\': \'SERIAL PRIMARY KEY\', \'type\': \'id\', \'unique\': False}, \'last_name\': {\'length\': 512, \'notnull\': False, \'raw_rname\': \'last_name\', \'rname\': \'"last_name"\', \'sortable\': 3, \'sql\': \'VARCHAR(512)\', \'type\': \'string\', \'unique\': False}, \'phone\': {\'length\': 512, \'notnull\': False, \'raw_rname\': \'phone\', \'rname\': \'"phone"\', \'sortable\': 7, \'sql\': \'INTEGER\', \'type\': \'integer\', \'unique\': False}, \'profession\': {\'length\': 512, \'notnull\': False, \'raw_rname\': \'profession\', \'rname\': \'"profession"\', \'sortable\': 9, \'sql\': \'VARCHAR(512)\', \'type\': \'string\', \'unique\': False}, \'years_exp\': {\'length\': <bound method type.widget of <class \'gluon.sqlhtml.OptionsWidget\'>>, \'notnull\': False, \'raw_rname\': \'years_exp\', \'rname\': \'"years_exp"\', \'sortable\': 10, \'sql\': \'INTEGER\', \'type\': \'integer\', \'unique\': False}}'
+p197
+sS'table'
+p198
+S'<Table employee (id, first_name, last_name, gend...email, phone, address, profession_id, years_exp)>'
+p199
+ssg72
+I463
+sg73
+(dp200
+I458
+S'                            db.commit()'
+p201
+sI459
+S'                            self.save_dbt(table, sql_fields_current)'
+p202
+sI460
+S"                            self.log('success!\\n', table)"
+p203
+sI461
+S''
+sI462
+S'            elif metadata_change:'
+p204
+sI463
+S'                self.save_dbt(table, sql_fields_current)'
+p205
+sI464
+S''
+sI465
+S'        if metadata_change and not ('
+p206
+sI466
+S'           query and db._adapter.commit_on_alter_table):'
+p207
+sI467
+S'            db.commit()'
+p208
+ssg85
+S'(self=<pydal.migrator.Migrator object>, table=<Table employee (id, first_name, last_name, gend...email, phone, address, profession_id, years_exp)>, sql_fields={\'address\': {\'length\': 512, \'notnull\': False, \'raw_rname\': \'address\', \'rname\': \'"address"\', \'sortable\': 8, \'sql\': \'VARCHAR(512)\', \'type\': \'string\', \'unique\': False}, \'birth_date\': {\'length\': 512, \'notnull\': False, \'raw_rname\': \'birth_date\', \'rname\': \'"birth_date"\', \'sortable\': 5, \'sql\': \'DATE\', \'type\': \'date\', \'unique\': False}, \'email\': {\'length\': 512, \'notnull\': False, \'raw_rname\': \'email\', \'rname\': \'"email"\', \'sortable\': 6, \'sql\': \'VARCHAR(512)\', \'type\': \'string\', \'unique\': False}, \'first_name\': {\'length\': 512, \'notnull\': False, \'raw_rname\': \'first_name\', \'rname\': \'"first_name"\', \'sortable\': 2, \'sql\': \'VARCHAR(512)\', \'type\': \'string\', \'unique\': False}, \'gender_id\': {\'length\': <bound method type.widget of <class \'gluon.sqlhtml.OptionsWidget\'>>, \'notnull\': False, \'raw_rname\': \'gender_id\', \'rname\': \'"gender_id"\', \'sortable\': 4, \'sql\': \'INTEGER REFERENCES "gender" ("id") ON DELETE CASCADE  \', \'type\': \'reference gender\', \'unique\': False}, \'id\': {\'length\': 512, \'notnull\': False, \'raw_rname\': \'id\', \'rname\': \'"id"\', \'sortable\': 1, \'sql\': \'SERIAL PRIMARY KEY\', \'type\': \'id\', \'unique\': False}, \'last_name\': {\'length\': 512, \'notnull\': False, \'raw_rname\': \'last_name\', \'rname\': \'"last_name"\', \'sortable\': 3, \'sql\': \'VARCHAR(512)\', \'type\': \'string\', \'unique\': False}, \'phone\': {\'length\': 512, \'notnull\': False, \'raw_rname\': \'phone\', \'rname\': \'"phone"\', \'sortable\': 7, \'sql\': \'INTEGER\', \'type\': \'integer\', \'unique\': False}, \'profession_id\': {\'length\': <bound method type.widget of <class \'gluon.sqlhtml.OptionsWidget\'>>, \'notnull\': False, \'raw_rname\': \'profession_id\', \'rname\': \'"profession_id"\', \'sortable\': 9, \'sql\': \'INTEGER REFERENCES "profession" ("id") ON DELETE CASCADE  \', \'type\': \'reference profession\', \'unique\': False}, \'years_exp\': {\'length\': <bound method type.widget of <class \'gluon.sqlhtml.OptionsWidget\'>>, \'notnull\': False, \'raw_rname\': \'years_exp\', \'rname\': \'"years_exp"\', \'sortable\': 10, \'sql\': \'INTEGER\', \'type\': \'integer\', \'unique\': False}}, sql_fields_old={\'address\': {\'length\': 512, \'notnull\': False, \'raw_rname\': \'address\', \'rname\': \'"address"\', \'sortable\': 8, \'sql\': \'VARCHAR(512)\', \'type\': \'string\', \'unique\': False}, \'birth_date\': {\'length\': 512, \'notnull\': False, \'raw_rname\': \'birth_date\', \'rname\': \'"birth_date"\', \'sortable\': 5, \'sql\': \'DATE\', \'type\': \'date\', \'unique\': False}, \'email\': {\'length\': 512, \'notnull\': False, \'raw_rname\': \'email\', \'rname\': \'"email"\', \'sortable\': 6, \'sql\': \'VARCHAR(512)\', \'type\': \'string\', \'unique\': False}, \'first_name\': {\'length\': 512, \'notnull\': False, \'raw_rname\': \'first_name\', \'rname\': \'"first_name"\', \'sortable\': 2, \'sql\': \'VARCHAR(512)\', \'type\': \'string\', \'unique\': False}, \'gender\': {\'length\': 512, \'notnull\': False, \'raw_rname\': \'gender\', \'rname\': \'"gender"\', \'sortable\': 4, \'sql\': \'VARCHAR(512)\', \'type\': \'string\', \'unique\': False}, \'id\': {\'length\': 512, \'notnull\': False, \'raw_rname\': \'id\', \'rname\': \'"id"\', \'sortable\': 1, \'sql\': \'SERIAL PRIMARY KEY\', \'type\': \'id\', \'unique\': False}, \'last_name\': {\'length\': 512, \'notnull\': False, \'raw_rname\': \'last_name\', \'rname\': \'"last_name"\', \'sortable\': 3, \'sql\': \'VARCHAR(512)\', \'type\': \'string\', \'unique\': False}, \'phone\': {\'length\': 512, \'notnull\': False, \'raw_rname\': \'phone\', \'rname\': \'"phone"\', \'sortable\': 7, \'sql\': \'INTEGER\', \'type\': \'integer\', \'unique\': False}, \'profession\': {\'length\': 512, \'notnull\': False, \'raw_rname\': \'profession\', \'rname\': \'"profession"\', \'sortable\': 9, \'sql\': \'VARCHAR(512)\', \'type\': \'string\', \'unique\': False}, \'years_exp\': {\'length\': 512, \'notnull\': False, \'raw_rname\': \'years_exp\', \'rname\': \'"years_exp"\', \'sortable\': 10, \'sql\': \'INTEGER\', \'type\': \'integer\', \'unique\': False}}, sql_fields_aux={\'address\': {\'sql\': \'VARCHAR(512)\'}, \'birth_date\': {\'sql\': \'DATE\'}, \'email\': {\'sql\': \'VARCHAR(512)\'}, \'first_name\': {\'sql\': \'VARCHAR(512)\'}, \'gender_id\': {\'sql\': \'INTEGER REFERENCES "gender" ("id") ON DELETE CASCADE  \'}, \'id\': {\'sql\': \'SERIAL PRIMARY KEY\'}, \'last_name\': {\'sql\': \'VARCHAR(512)\'}, \'phone\': {\'sql\': \'INTEGER\'}, \'profession_id\': {\'sql\': \'INTEGER REFERENCES "profession" ("id") ON DELETE CASCADE  \'}, \'years_exp\': {\'sql\': \'INTEGER\'}}, logfile=None, fake_migrate=False)'
+p209
+sg87
+S'migrate_table'
+p210
+sa(dp211
+g64
+S'/Users/nic/Dev/web2py/gluon/packages/dal/pydal/migrator.py'
+p212
+sg66
+(dp213
+S'pickle.dump'
+p214
+S'<function dump>'
+p215
+sS'tfile'
+p216
+S'<pydal.contrib.portalocker.LockedFile object>'
+p217
+sS'sql_fields_current'
+p218
+S'{\'address\': {\'length\': 512, \'notnull\': False, \'raw_rname\': \'address\', \'rname\': \'"address"\', \'sortable\': 8, \'sql\': \'VARCHAR(512)\', \'type\': \'string\', \'unique\': False}, \'birth_date\': {\'length\': 512, \'notnull\': False, \'raw_rname\': \'birth_date\', \'rname\': \'"birth_date"\', \'sortable\': 5, \'sql\': \'DATE\', \'type\': \'date\', \'unique\': False}, \'email\': {\'length\': 512, \'notnull\': False, \'raw_rname\': \'email\', \'rname\': \'"email"\', \'sortable\': 6, \'sql\': \'VARCHAR(512)\', \'type\': \'string\', \'unique\': False}, \'first_name\': {\'length\': 512, \'notnull\': False, \'raw_rname\': \'first_name\', \'rname\': \'"first_name"\', \'sortable\': 2, \'sql\': \'VARCHAR(512)\', \'type\': \'string\', \'unique\': False}, \'gender\': {\'length\': 512, \'notnull\': False, \'raw_rname\': \'gender\', \'rname\': \'"gender"\', \'sortable\': 4, \'sql\': \'VARCHAR(512)\', \'type\': \'string\', \'unique\': False}, \'id\': {\'length\': 512, \'notnull\': False, \'raw_rname\': \'id\', \'rname\': \'"id"\', \'sortable\': 1, \'sql\': \'SERIAL PRIMARY KEY\', \'type\': \'id\', \'unique\': False}, \'last_name\': {\'length\': 512, \'notnull\': False, \'raw_rname\': \'last_name\', \'rname\': \'"last_name"\', \'sortable\': 3, \'sql\': \'VARCHAR(512)\', \'type\': \'string\', \'unique\': False}, \'phone\': {\'length\': 512, \'notnull\': False, \'raw_rname\': \'phone\', \'rname\': \'"phone"\', \'sortable\': 7, \'sql\': \'INTEGER\', \'type\': \'integer\', \'unique\': False}, \'profession\': {\'length\': 512, \'notnull\': False, \'raw_rname\': \'profession\', \'rname\': \'"profession"\', \'sortable\': 9, \'sql\': \'VARCHAR(512)\', \'type\': \'string\', \'unique\': False}, \'years_exp\': {\'length\': <bound method type.widget of <class \'gluon.sqlhtml.OptionsWidget\'>>, \'notnull\': False, \'raw_rname\': \'years_exp\', \'rname\': \'"years_exp"\', \'sortable\': 10, \'sql\': \'INTEGER\', \'type\': \'integer\', \'unique\': False}}'
+p219
+sS'global pickle'
+p220
+S"<module 'pickle' from '/System/Library/Framework...framework/Versions/2.7/lib/python2.7/pickle.pyc'>"
+p221
+ssg72
+I473
+sg73
+(dp222
+I468
+S'            self.save_dbt(table, sql_fields_current)'
+p223
+sI469
+S"            self.log('success!\\n', table)"
+p224
+sI470
+S''
+sI471
+S'    def save_dbt(self, table, sql_fields_current):'
+p225
+sI472
+S"        tfile = self.file_open(table._dbt, 'wb')"
+p226
+sI473
+S'        pickle.dump(sql_fields_current, tfile)'
+p227
+sI474
+S'        self.file_close(tfile)'
+p228
+sI475
+S''
+sI476
+S'    def log(self, message, table=None):'
+p229
+sI477
+S'        isabs = None'
+p230
+ssg85
+S'(self=<pydal.migrator.Migrator object>, table=<Table employee (id, first_name, last_name, gend...email, phone, address, profession_id, years_exp)>, sql_fields_current={\'address\': {\'length\': 512, \'notnull\': False, \'raw_rname\': \'address\', \'rname\': \'"address"\', \'sortable\': 8, \'sql\': \'VARCHAR(512)\', \'type\': \'string\', \'unique\': False}, \'birth_date\': {\'length\': 512, \'notnull\': False, \'raw_rname\': \'birth_date\', \'rname\': \'"birth_date"\', \'sortable\': 5, \'sql\': \'DATE\', \'type\': \'date\', \'unique\': False}, \'email\': {\'length\': 512, \'notnull\': False, \'raw_rname\': \'email\', \'rname\': \'"email"\', \'sortable\': 6, \'sql\': \'VARCHAR(512)\', \'type\': \'string\', \'unique\': False}, \'first_name\': {\'length\': 512, \'notnull\': False, \'raw_rname\': \'first_name\', \'rname\': \'"first_name"\', \'sortable\': 2, \'sql\': \'VARCHAR(512)\', \'type\': \'string\', \'unique\': False}, \'gender\': {\'length\': 512, \'notnull\': False, \'raw_rname\': \'gender\', \'rname\': \'"gender"\', \'sortable\': 4, \'sql\': \'VARCHAR(512)\', \'type\': \'string\', \'unique\': False}, \'id\': {\'length\': 512, \'notnull\': False, \'raw_rname\': \'id\', \'rname\': \'"id"\', \'sortable\': 1, \'sql\': \'SERIAL PRIMARY KEY\', \'type\': \'id\', \'unique\': False}, \'last_name\': {\'length\': 512, \'notnull\': False, \'raw_rname\': \'last_name\', \'rname\': \'"last_name"\', \'sortable\': 3, \'sql\': \'VARCHAR(512)\', \'type\': \'string\', \'unique\': False}, \'phone\': {\'length\': 512, \'notnull\': False, \'raw_rname\': \'phone\', \'rname\': \'"phone"\', \'sortable\': 7, \'sql\': \'INTEGER\', \'type\': \'integer\', \'unique\': False}, \'profession\': {\'length\': 512, \'notnull\': False, \'raw_rname\': \'profession\', \'rname\': \'"profession"\', \'sortable\': 9, \'sql\': \'VARCHAR(512)\', \'type\': \'string\', \'unique\': False}, \'years_exp\': {\'length\': <bound method type.widget of <class \'gluon.sqlhtml.OptionsWidget\'>>, \'notnull\': False, \'raw_rname\': \'years_exp\', \'rname\': \'"years_exp"\', \'sortable\': 10, \'sql\': \'INTEGER\', \'type\': \'integer\', \'unique\': False}})'
+p231
+sg87
+S'save_dbt'
+p232
+sa(dp233
+g64
+S'/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/pickle.py'
+p234
+sg66
+(dp235
+S'obj'
+p236
+S'{\'address\': {\'length\': 512, \'notnull\': False, \'raw_rname\': \'address\', \'rname\': \'"address"\', \'sortable\': 8, \'sql\': \'VARCHAR(512)\', \'type\': \'string\', \'unique\': False}, \'birth_date\': {\'length\': 512, \'notnull\': False, \'raw_rname\': \'birth_date\', \'rname\': \'"birth_date"\', \'sortable\': 5, \'sql\': \'DATE\', \'type\': \'date\', \'unique\': False}, \'email\': {\'length\': 512, \'notnull\': False, \'raw_rname\': \'email\', \'rname\': \'"email"\', \'sortable\': 6, \'sql\': \'VARCHAR(512)\', \'type\': \'string\', \'unique\': False}, \'first_name\': {\'length\': 512, \'notnull\': False, \'raw_rname\': \'first_name\', \'rname\': \'"first_name"\', \'sortable\': 2, \'sql\': \'VARCHAR(512)\', \'type\': \'string\', \'unique\': False}, \'gender\': {\'length\': 512, \'notnull\': False, \'raw_rname\': \'gender\', \'rname\': \'"gender"\', \'sortable\': 4, \'sql\': \'VARCHAR(512)\', \'type\': \'string\', \'unique\': False}, \'id\': {\'length\': 512, \'notnull\': False, \'raw_rname\': \'id\', \'rname\': \'"id"\', \'sortable\': 1, \'sql\': \'SERIAL PRIMARY KEY\', \'type\': \'id\', \'unique\': False}, \'last_name\': {\'length\': 512, \'notnull\': False, \'raw_rname\': \'last_name\', \'rname\': \'"last_name"\', \'sortable\': 3, \'sql\': \'VARCHAR(512)\', \'type\': \'string\', \'unique\': False}, \'phone\': {\'length\': 512, \'notnull\': False, \'raw_rname\': \'phone\', \'rname\': \'"phone"\', \'sortable\': 7, \'sql\': \'INTEGER\', \'type\': \'integer\', \'unique\': False}, \'profession\': {\'length\': 512, \'notnull\': False, \'raw_rname\': \'profession\', \'rname\': \'"profession"\', \'sortable\': 9, \'sql\': \'VARCHAR(512)\', \'type\': \'string\', \'unique\': False}, \'years_exp\': {\'length\': <bound method type.widget of <class \'gluon.sqlhtml.OptionsWidget\'>>, \'notnull\': False, \'raw_rname\': \'years_exp\', \'rname\': \'"years_exp"\', \'sortable\': 10, \'sql\': \'INTEGER\', \'type\': \'integer\', \'unique\': False}}'
+p237
+sS'protocol'
+p238
+S'None'
+p239
+sS').dump'
+p240
+g117
+sS'file'
+p241
+S'<pydal.contrib.portalocker.LockedFile object>'
+p242
+sS'global Pickler'
+p243
+S'<class pickle.Pickler>'
+p244
+ssg72
+I1370
+sg73
+(dp245
+I1365
+S'    from cStringIO import StringIO'
+p246
+sI1366
+S'except ImportError:'
+p247
+sI1367
+S'    from StringIO import StringIO'
+p248
+sI1368
+S''
+sI1369
+S'def dump(obj, file, protocol=None):'
+p249
+sI1370
+S'    Pickler(file, protocol).dump(obj)'
+p250
+sI1371
+S''
+sI1372
+S'def dumps(obj, protocol=None):'
+p251
+sI1373
+S'    file = StringIO()'
+p252
+sI1374
+S'    Pickler(file, protocol).dump(obj)'
+p253
+ssg85
+S'(obj={\'address\': {\'length\': 512, \'notnull\': False, \'raw_rname\': \'address\', \'rname\': \'"address"\', \'sortable\': 8, \'sql\': \'VARCHAR(512)\', \'type\': \'string\', \'unique\': False}, \'birth_date\': {\'length\': 512, \'notnull\': False, \'raw_rname\': \'birth_date\', \'rname\': \'"birth_date"\', \'sortable\': 5, \'sql\': \'DATE\', \'type\': \'date\', \'unique\': False}, \'email\': {\'length\': 512, \'notnull\': False, \'raw_rname\': \'email\', \'rname\': \'"email"\', \'sortable\': 6, \'sql\': \'VARCHAR(512)\', \'type\': \'string\', \'unique\': False}, \'first_name\': {\'length\': 512, \'notnull\': False, \'raw_rname\': \'first_name\', \'rname\': \'"first_name"\', \'sortable\': 2, \'sql\': \'VARCHAR(512)\', \'type\': \'string\', \'unique\': False}, \'gender\': {\'length\': 512, \'notnull\': False, \'raw_rname\': \'gender\', \'rname\': \'"gender"\', \'sortable\': 4, \'sql\': \'VARCHAR(512)\', \'type\': \'string\', \'unique\': False}, \'id\': {\'length\': 512, \'notnull\': False, \'raw_rname\': \'id\', \'rname\': \'"id"\', \'sortable\': 1, \'sql\': \'SERIAL PRIMARY KEY\', \'type\': \'id\', \'unique\': False}, \'last_name\': {\'length\': 512, \'notnull\': False, \'raw_rname\': \'last_name\', \'rname\': \'"last_name"\', \'sortable\': 3, \'sql\': \'VARCHAR(512)\', \'type\': \'string\', \'unique\': False}, \'phone\': {\'length\': 512, \'notnull\': False, \'raw_rname\': \'phone\', \'rname\': \'"phone"\', \'sortable\': 7, \'sql\': \'INTEGER\', \'type\': \'integer\', \'unique\': False}, \'profession\': {\'length\': 512, \'notnull\': False, \'raw_rname\': \'profession\', \'rname\': \'"profession"\', \'sortable\': 9, \'sql\': \'VARCHAR(512)\', \'type\': \'string\', \'unique\': False}, \'years_exp\': {\'length\': <bound method type.widget of <class \'gluon.sqlhtml.OptionsWidget\'>>, \'notnull\': False, \'raw_rname\': \'years_exp\', \'rname\': \'"years_exp"\', \'sortable\': 10, \'sql\': \'INTEGER\', \'type\': \'integer\', \'unique\': False}}, file=<pydal.contrib.portalocker.LockedFile object>, protocol=None)'
+p254
+sg87
+g66
+sa(dp255
+g64
+S'/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/pickle.py'
+p256
+sg66
+(dp257
+S'self'
+p258
+S'<pickle.Pickler instance>'
+p259
+sS'obj'
+p260
+S'{\'address\': {\'length\': 512, \'notnull\': False, \'raw_rname\': \'address\', \'rname\': \'"address"\', \'sortable\': 8, \'sql\': \'VARCHAR(512)\', \'type\': \'string\', \'unique\': False}, \'birth_date\': {\'length\': 512, \'notnull\': False, \'raw_rname\': \'birth_date\', \'rname\': \'"birth_date"\', \'sortable\': 5, \'sql\': \'DATE\', \'type\': \'date\', \'unique\': False}, \'email\': {\'length\': 512, \'notnull\': False, \'raw_rname\': \'email\', \'rname\': \'"email"\', \'sortable\': 6, \'sql\': \'VARCHAR(512)\', \'type\': \'string\', \'unique\': False}, \'first_name\': {\'length\': 512, \'notnull\': False, \'raw_rname\': \'first_name\', \'rname\': \'"first_name"\', \'sortable\': 2, \'sql\': \'VARCHAR(512)\', \'type\': \'string\', \'unique\': False}, \'gender\': {\'length\': 512, \'notnull\': False, \'raw_rname\': \'gender\', \'rname\': \'"gender"\', \'sortable\': 4, \'sql\': \'VARCHAR(512)\', \'type\': \'string\', \'unique\': False}, \'id\': {\'length\': 512, \'notnull\': False, \'raw_rname\': \'id\', \'rname\': \'"id"\', \'sortable\': 1, \'sql\': \'SERIAL PRIMARY KEY\', \'type\': \'id\', \'unique\': False}, \'last_name\': {\'length\': 512, \'notnull\': False, \'raw_rname\': \'last_name\', \'rname\': \'"last_name"\', \'sortable\': 3, \'sql\': \'VARCHAR(512)\', \'type\': \'string\', \'unique\': False}, \'phone\': {\'length\': 512, \'notnull\': False, \'raw_rname\': \'phone\', \'rname\': \'"phone"\', \'sortable\': 7, \'sql\': \'INTEGER\', \'type\': \'integer\', \'unique\': False}, \'profession\': {\'length\': 512, \'notnull\': False, \'raw_rname\': \'profession\', \'rname\': \'"profession"\', \'sortable\': 9, \'sql\': \'VARCHAR(512)\', \'type\': \'string\', \'unique\': False}, \'years_exp\': {\'length\': <bound method type.widget of <class \'gluon.sqlhtml.OptionsWidget\'>>, \'notnull\': False, \'raw_rname\': \'years_exp\', \'rname\': \'"years_exp"\', \'sortable\': 10, \'sql\': \'INTEGER\', \'type\': \'integer\', \'unique\': False}}'
+p261
+sS'self.save'
+p262
+S'<bound method Pickler.save of <pickle.Pickler instance>>'
+p263
+ssg72
+I224
+sg73
+(dp264
+I224
+S'        self.save(obj)'
+p265
+sI225
+S'        self.write(STOP)'
+p266
+sI226
+S''
+sI227
+S'    def memoize(self, obj):'
+p267
+sI228
+S'        """Store an object in the memo."""'
+p268
+sI219
+S''
+sI220
+S'    def dump(self, obj):'
+p269
+sI221
+S'        """Write a pickled representation of obj to the open file."""'
+p270
+sI222
+S'        if self.proto >= 2:'
+p271
+sI223
+S'            self.write(PROTO + chr(self.proto))'
+p272
+ssg85
+S'(self=<pickle.Pickler instance>, obj={\'address\': {\'length\': 512, \'notnull\': False, \'raw_rname\': \'address\', \'rname\': \'"address"\', \'sortable\': 8, \'sql\': \'VARCHAR(512)\', \'type\': \'string\', \'unique\': False}, \'birth_date\': {\'length\': 512, \'notnull\': False, \'raw_rname\': \'birth_date\', \'rname\': \'"birth_date"\', \'sortable\': 5, \'sql\': \'DATE\', \'type\': \'date\', \'unique\': False}, \'email\': {\'length\': 512, \'notnull\': False, \'raw_rname\': \'email\', \'rname\': \'"email"\', \'sortable\': 6, \'sql\': \'VARCHAR(512)\', \'type\': \'string\', \'unique\': False}, \'first_name\': {\'length\': 512, \'notnull\': False, \'raw_rname\': \'first_name\', \'rname\': \'"first_name"\', \'sortable\': 2, \'sql\': \'VARCHAR(512)\', \'type\': \'string\', \'unique\': False}, \'gender\': {\'length\': 512, \'notnull\': False, \'raw_rname\': \'gender\', \'rname\': \'"gender"\', \'sortable\': 4, \'sql\': \'VARCHAR(512)\', \'type\': \'string\', \'unique\': False}, \'id\': {\'length\': 512, \'notnull\': False, \'raw_rname\': \'id\', \'rname\': \'"id"\', \'sortable\': 1, \'sql\': \'SERIAL PRIMARY KEY\', \'type\': \'id\', \'unique\': False}, \'last_name\': {\'length\': 512, \'notnull\': False, \'raw_rname\': \'last_name\', \'rname\': \'"last_name"\', \'sortable\': 3, \'sql\': \'VARCHAR(512)\', \'type\': \'string\', \'unique\': False}, \'phone\': {\'length\': 512, \'notnull\': False, \'raw_rname\': \'phone\', \'rname\': \'"phone"\', \'sortable\': 7, \'sql\': \'INTEGER\', \'type\': \'integer\', \'unique\': False}, \'profession\': {\'length\': 512, \'notnull\': False, \'raw_rname\': \'profession\', \'rname\': \'"profession"\', \'sortable\': 9, \'sql\': \'VARCHAR(512)\', \'type\': \'string\', \'unique\': False}, \'years_exp\': {\'length\': <bound method type.widget of <class \'gluon.sqlhtml.OptionsWidget\'>>, \'notnull\': False, \'raw_rname\': \'years_exp\', \'rname\': \'"years_exp"\', \'sortable\': 10, \'sql\': \'INTEGER\', \'type\': \'integer\', \'unique\': False}})'
+p273
+sg87
+g66
+sa(dp274
+g64
+S'/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/pickle.py'
+p275
+sg66
+(dp276
+S'self'
+p277
+S'<pickle.Pickler instance>'
+p278
+sS'obj'
+p279
+S'{\'address\': {\'length\': 512, \'notnull\': False, \'raw_rname\': \'address\', \'rname\': \'"address"\', \'sortable\': 8, \'sql\': \'VARCHAR(512)\', \'type\': \'string\', \'unique\': False}, \'birth_date\': {\'length\': 512, \'notnull\': False, \'raw_rname\': \'birth_date\', \'rname\': \'"birth_date"\', \'sortable\': 5, \'sql\': \'DATE\', \'type\': \'date\', \'unique\': False}, \'email\': {\'length\': 512, \'notnull\': False, \'raw_rname\': \'email\', \'rname\': \'"email"\', \'sortable\': 6, \'sql\': \'VARCHAR(512)\', \'type\': \'string\', \'unique\': False}, \'first_name\': {\'length\': 512, \'notnull\': False, \'raw_rname\': \'first_name\', \'rname\': \'"first_name"\', \'sortable\': 2, \'sql\': \'VARCHAR(512)\', \'type\': \'string\', \'unique\': False}, \'gender\': {\'length\': 512, \'notnull\': False, \'raw_rname\': \'gender\', \'rname\': \'"gender"\', \'sortable\': 4, \'sql\': \'VARCHAR(512)\', \'type\': \'string\', \'unique\': False}, \'id\': {\'length\': 512, \'notnull\': False, \'raw_rname\': \'id\', \'rname\': \'"id"\', \'sortable\': 1, \'sql\': \'SERIAL PRIMARY KEY\', \'type\': \'id\', \'unique\': False}, \'last_name\': {\'length\': 512, \'notnull\': False, \'raw_rname\': \'last_name\', \'rname\': \'"last_name"\', \'sortable\': 3, \'sql\': \'VARCHAR(512)\', \'type\': \'string\', \'unique\': False}, \'phone\': {\'length\': 512, \'notnull\': False, \'raw_rname\': \'phone\', \'rname\': \'"phone"\', \'sortable\': 7, \'sql\': \'INTEGER\', \'type\': \'integer\', \'unique\': False}, \'profession\': {\'length\': 512, \'notnull\': False, \'raw_rname\': \'profession\', \'rname\': \'"profession"\', \'sortable\': 9, \'sql\': \'VARCHAR(512)\', \'type\': \'string\', \'unique\': False}, \'years_exp\': {\'length\': <bound method type.widget of <class \'gluon.sqlhtml.OptionsWidget\'>>, \'notnull\': False, \'raw_rname\': \'years_exp\', \'rname\': \'"years_exp"\', \'sortable\': 10, \'sql\': \'INTEGER\', \'type\': \'integer\', \'unique\': False}}'
+p280
+sS'f'
+S'<function save_dict>'
+p281
+ssg72
+I286
+sg73
+(dp282
+I288
+S''
+sI289
+S'        # Check copy_reg.dispatch_table'
+p283
+sI290
+S'        reduce = dispatch_table.get(t)'
+p284
+sI281
+S''
+sI282
+S'        # Check the type dispatch table'
+p285
+sI283
+S'        t = type(obj)'
+p286
+sI284
+S'        f = self.dispatch.get(t)'
+p287
+sI285
+S'        if f:'
+p288
+sI286
+S'            f(self, obj) # Call unbound method with explicit self'
+p289
+sI287
+S'            return'
+p290
+ssg85
+S'(self=<pickle.Pickler instance>, obj={\'address\': {\'length\': 512, \'notnull\': False, \'raw_rname\': \'address\', \'rname\': \'"address"\', \'sortable\': 8, \'sql\': \'VARCHAR(512)\', \'type\': \'string\', \'unique\': False}, \'birth_date\': {\'length\': 512, \'notnull\': False, \'raw_rname\': \'birth_date\', \'rname\': \'"birth_date"\', \'sortable\': 5, \'sql\': \'DATE\', \'type\': \'date\', \'unique\': False}, \'email\': {\'length\': 512, \'notnull\': False, \'raw_rname\': \'email\', \'rname\': \'"email"\', \'sortable\': 6, \'sql\': \'VARCHAR(512)\', \'type\': \'string\', \'unique\': False}, \'first_name\': {\'length\': 512, \'notnull\': False, \'raw_rname\': \'first_name\', \'rname\': \'"first_name"\', \'sortable\': 2, \'sql\': \'VARCHAR(512)\', \'type\': \'string\', \'unique\': False}, \'gender\': {\'length\': 512, \'notnull\': False, \'raw_rname\': \'gender\', \'rname\': \'"gender"\', \'sortable\': 4, \'sql\': \'VARCHAR(512)\', \'type\': \'string\', \'unique\': False}, \'id\': {\'length\': 512, \'notnull\': False, \'raw_rname\': \'id\', \'rname\': \'"id"\', \'sortable\': 1, \'sql\': \'SERIAL PRIMARY KEY\', \'type\': \'id\', \'unique\': False}, \'last_name\': {\'length\': 512, \'notnull\': False, \'raw_rname\': \'last_name\', \'rname\': \'"last_name"\', \'sortable\': 3, \'sql\': \'VARCHAR(512)\', \'type\': \'string\', \'unique\': False}, \'phone\': {\'length\': 512, \'notnull\': False, \'raw_rname\': \'phone\', \'rname\': \'"phone"\', \'sortable\': 7, \'sql\': \'INTEGER\', \'type\': \'integer\', \'unique\': False}, \'profession\': {\'length\': 512, \'notnull\': False, \'raw_rname\': \'profession\', \'rname\': \'"profession"\', \'sortable\': 9, \'sql\': \'VARCHAR(512)\', \'type\': \'string\', \'unique\': False}, \'years_exp\': {\'length\': <bound method type.widget of <class \'gluon.sqlhtml.OptionsWidget\'>>, \'notnull\': False, \'raw_rname\': \'years_exp\', \'rname\': \'"years_exp"\', \'sortable\': 10, \'sql\': \'INTEGER\', \'type\': \'integer\', \'unique\': False}})'
+p291
+sg87
+S'save'
+p292
+sa(dp293
+g64
+S'/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/pickle.py'
+p294
+sg66
+(dp295
+S'self._batch_setitems'
+p296
+S'<bound method Pickler._batch_setitems of <pickle.Pickler instance>>'
+p297
+sS'self'
+p298
+S'<pickle.Pickler instance>'
+p299
+sS'obj'
+p300
+S'{\'address\': {\'length\': 512, \'notnull\': False, \'raw_rname\': \'address\', \'rname\': \'"address"\', \'sortable\': 8, \'sql\': \'VARCHAR(512)\', \'type\': \'string\', \'unique\': False}, \'birth_date\': {\'length\': 512, \'notnull\': False, \'raw_rname\': \'birth_date\', \'rname\': \'"birth_date"\', \'sortable\': 5, \'sql\': \'DATE\', \'type\': \'date\', \'unique\': False}, \'email\': {\'length\': 512, \'notnull\': False, \'raw_rname\': \'email\', \'rname\': \'"email"\', \'sortable\': 6, \'sql\': \'VARCHAR(512)\', \'type\': \'string\', \'unique\': False}, \'first_name\': {\'length\': 512, \'notnull\': False, \'raw_rname\': \'first_name\', \'rname\': \'"first_name"\', \'sortable\': 2, \'sql\': \'VARCHAR(512)\', \'type\': \'string\', \'unique\': False}, \'gender\': {\'length\': 512, \'notnull\': False, \'raw_rname\': \'gender\', \'rname\': \'"gender"\', \'sortable\': 4, \'sql\': \'VARCHAR(512)\', \'type\': \'string\', \'unique\': False}, \'id\': {\'length\': 512, \'notnull\': False, \'raw_rname\': \'id\', \'rname\': \'"id"\', \'sortable\': 1, \'sql\': \'SERIAL PRIMARY KEY\', \'type\': \'id\', \'unique\': False}, \'last_name\': {\'length\': 512, \'notnull\': False, \'raw_rname\': \'last_name\', \'rname\': \'"last_name"\', \'sortable\': 3, \'sql\': \'VARCHAR(512)\', \'type\': \'string\', \'unique\': False}, \'phone\': {\'length\': 512, \'notnull\': False, \'raw_rname\': \'phone\', \'rname\': \'"phone"\', \'sortable\': 7, \'sql\': \'INTEGER\', \'type\': \'integer\', \'unique\': False}, \'profession\': {\'length\': 512, \'notnull\': False, \'raw_rname\': \'profession\', \'rname\': \'"profession"\', \'sortable\': 9, \'sql\': \'VARCHAR(512)\', \'type\': \'string\', \'unique\': False}, \'years_exp\': {\'length\': <bound method type.widget of <class \'gluon.sqlhtml.OptionsWidget\'>>, \'notnull\': False, \'raw_rname\': \'years_exp\', \'rname\': \'"years_exp"\', \'sortable\': 10, \'sql\': \'INTEGER\', \'type\': \'integer\', \'unique\': False}}'
+p301
+sS'obj.iteritems'
+p302
+S'<built-in method iteritems of dict object>'
+p303
+ssg72
+I649
+sg73
+(dp304
+I644
+S'            write(EMPTY_DICT)'
+p305
+sI645
+S"        else:   # proto 0 -- can't use EMPTY_DICT"
+p306
+sI646
+S'            write(MARK + DICT)'
+p307
+sI647
+S''
+sI648
+S'        self.memoize(obj)'
+p308
+sI649
+S'        self._batch_setitems(obj.iteritems())'
+p309
+sI650
+S''
+sI651
+S'    dispatch[DictionaryType] = save_dict'
+p310
+sI652
+S'    if not PyStringMap is None:'
+p311
+sI653
+S'        dispatch[PyStringMap] = save_dict'
+p312
+ssg85
+S'(self=<pickle.Pickler instance>, obj={\'address\': {\'length\': 512, \'notnull\': False, \'raw_rname\': \'address\', \'rname\': \'"address"\', \'sortable\': 8, \'sql\': \'VARCHAR(512)\', \'type\': \'string\', \'unique\': False}, \'birth_date\': {\'length\': 512, \'notnull\': False, \'raw_rname\': \'birth_date\', \'rname\': \'"birth_date"\', \'sortable\': 5, \'sql\': \'DATE\', \'type\': \'date\', \'unique\': False}, \'email\': {\'length\': 512, \'notnull\': False, \'raw_rname\': \'email\', \'rname\': \'"email"\', \'sortable\': 6, \'sql\': \'VARCHAR(512)\', \'type\': \'string\', \'unique\': False}, \'first_name\': {\'length\': 512, \'notnull\': False, \'raw_rname\': \'first_name\', \'rname\': \'"first_name"\', \'sortable\': 2, \'sql\': \'VARCHAR(512)\', \'type\': \'string\', \'unique\': False}, \'gender\': {\'length\': 512, \'notnull\': False, \'raw_rname\': \'gender\', \'rname\': \'"gender"\', \'sortable\': 4, \'sql\': \'VARCHAR(512)\', \'type\': \'string\', \'unique\': False}, \'id\': {\'length\': 512, \'notnull\': False, \'raw_rname\': \'id\', \'rname\': \'"id"\', \'sortable\': 1, \'sql\': \'SERIAL PRIMARY KEY\', \'type\': \'id\', \'unique\': False}, \'last_name\': {\'length\': 512, \'notnull\': False, \'raw_rname\': \'last_name\', \'rname\': \'"last_name"\', \'sortable\': 3, \'sql\': \'VARCHAR(512)\', \'type\': \'string\', \'unique\': False}, \'phone\': {\'length\': 512, \'notnull\': False, \'raw_rname\': \'phone\', \'rname\': \'"phone"\', \'sortable\': 7, \'sql\': \'INTEGER\', \'type\': \'integer\', \'unique\': False}, \'profession\': {\'length\': 512, \'notnull\': False, \'raw_rname\': \'profession\', \'rname\': \'"profession"\', \'sortable\': 9, \'sql\': \'VARCHAR(512)\', \'type\': \'string\', \'unique\': False}, \'years_exp\': {\'length\': <bound method type.widget of <class \'gluon.sqlhtml.OptionsWidget\'>>, \'notnull\': False, \'raw_rname\': \'years_exp\', \'rname\': \'"years_exp"\', \'sortable\': 10, \'sql\': \'INTEGER\', \'type\': \'integer\', \'unique\': False}})'
+p313
+sg87
+S'save_dict'
+p314
+sa(dp315
+g64
+S'/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/pickle.py'
+p316
+sg66
+(dp317
+S'save'
+p318
+S'<bound method Pickler.save of <pickle.Pickler instance>>'
+p319
+sS'v'
+S'{\'length\': <bound method type.widget of <class \'gluon.sqlhtml.OptionsWidget\'>>, \'notnull\': False, \'raw_rname\': \'years_exp\', \'rname\': \'"years_exp"\', \'sortable\': 10, \'sql\': \'INTEGER\', \'type\': \'integer\', \'unique\': False}'
+p320
+ssg72
+I663
+sg73
+(dp321
+I658
+S'        write = self.write'
+p322
+sI659
+S''
+sI660
+S'        if not self.bin:'
+p323
+sI661
+S'            for k, v in items:'
+p324
+sI662
+S'                save(k)'
+p325
+sI663
+S'                save(v)'
+p326
+sI664
+S'                write(SETITEM)'
+p327
+sI665
+S'            return'
+p328
+sI666
+S''
+sI667
+S'        r = xrange(self._BATCHSIZE)'
+p329
+ssg85
+S'(self=<pickle.Pickler instance>, items=<dictionary-itemiterator object>)'
+p330
+sg87
+S'_batch_setitems'
+p331
+sa(dp332
+g64
+S'/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/pickle.py'
+p333
+sg66
+(dp334
+S'self'
+p335
+S'<pickle.Pickler instance>'
+p336
+sS'obj'
+p337
+S'{\'length\': <bound method type.widget of <class \'gluon.sqlhtml.OptionsWidget\'>>, \'notnull\': False, \'raw_rname\': \'years_exp\', \'rname\': \'"years_exp"\', \'sortable\': 10, \'sql\': \'INTEGER\', \'type\': \'integer\', \'unique\': False}'
+p338
+sS'f'
+S'<function save_dict>'
+p339
+ssg72
+I286
+sg73
+(dp340
+I288
+S''
+sI289
+S'        # Check copy_reg.dispatch_table'
+p341
+sI290
+S'        reduce = dispatch_table.get(t)'
+p342
+sI281
+S''
+sI282
+S'        # Check the type dispatch table'
+p343
+sI283
+S'        t = type(obj)'
+p344
+sI284
+S'        f = self.dispatch.get(t)'
+p345
+sI285
+S'        if f:'
+p346
+sI286
+S'            f(self, obj) # Call unbound method with explicit self'
+p347
+sI287
+S'            return'
+p348
+ssg85
+S'(self=<pickle.Pickler instance>, obj={\'length\': <bound method type.widget of <class \'gluon.sqlhtml.OptionsWidget\'>>, \'notnull\': False, \'raw_rname\': \'years_exp\', \'rname\': \'"years_exp"\', \'sortable\': 10, \'sql\': \'INTEGER\', \'type\': \'integer\', \'unique\': False})'
+p349
+sg87
+g292
+sa(dp350
+g64
+S'/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/pickle.py'
+p351
+sg66
+(dp352
+S'self._batch_setitems'
+p353
+S'<bound method Pickler._batch_setitems of <pickle.Pickler instance>>'
+p354
+sS'self'
+p355
+S'<pickle.Pickler instance>'
+p356
+sS'obj'
+p357
+S'{\'length\': <bound method type.widget of <class \'gluon.sqlhtml.OptionsWidget\'>>, \'notnull\': False, \'raw_rname\': \'years_exp\', \'rname\': \'"years_exp"\', \'sortable\': 10, \'sql\': \'INTEGER\', \'type\': \'integer\', \'unique\': False}'
+p358
+sS'obj.iteritems'
+p359
+S'<built-in method iteritems of dict object>'
+p360
+ssg72
+I649
+sg73
+(dp361
+I644
+S'            write(EMPTY_DICT)'
+p362
+sI645
+S"        else:   # proto 0 -- can't use EMPTY_DICT"
+p363
+sI646
+S'            write(MARK + DICT)'
+p364
+sI647
+S''
+sI648
+S'        self.memoize(obj)'
+p365
+sI649
+S'        self._batch_setitems(obj.iteritems())'
+p366
+sI650
+S''
+sI651
+S'    dispatch[DictionaryType] = save_dict'
+p367
+sI652
+S'    if not PyStringMap is None:'
+p368
+sI653
+S'        dispatch[PyStringMap] = save_dict'
+p369
+ssg85
+S'(self=<pickle.Pickler instance>, obj={\'length\': <bound method type.widget of <class \'gluon.sqlhtml.OptionsWidget\'>>, \'notnull\': False, \'raw_rname\': \'years_exp\', \'rname\': \'"years_exp"\', \'sortable\': 10, \'sql\': \'INTEGER\', \'type\': \'integer\', \'unique\': False})'
+p370
+sg87
+g314
+sa(dp371
+g64
+S'/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/pickle.py'
+p372
+sg66
+(dp373
+S'save'
+p374
+S'<bound method Pickler.save of <pickle.Pickler instance>>'
+p375
+sS'v'
+S"<bound method type.widget of <class 'gluon.sqlhtml.OptionsWidget'>>"
+p376
+ssg72
+I663
+sg73
+(dp377
+I658
+S'        write = self.write'
+p378
+sI659
+S''
+sI660
+S'        if not self.bin:'
+p379
+sI661
+S'            for k, v in items:'
+p380
+sI662
+S'                save(k)'
+p381
+sI663
+S'                save(v)'
+p382
+sI664
+S'                write(SETITEM)'
+p383
+sI665
+S'            return'
+p384
+sI666
+S''
+sI667
+S'        r = xrange(self._BATCHSIZE)'
+p385
+ssg85
+S'(self=<pickle.Pickler instance>, items=<dictionary-itemiterator object>)'
+p386
+sg87
+g331
+sa(dp387
+g64
+S'/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/pickle.py'
+p388
+sg66
+(dp389
+S'self.proto'
+p390
+S'0'
+sS'rv'
+p391
+g117
+sS'reduce'
+p392
+S'<built-in method __reduce_ex__ of instancemethod object>'
+p393
+sS'self'
+p394
+S'<pickle.Pickler instance>'
+p395
+ssg72
+I306
+sg73
+(dp396
+I301
+S'                return'
+p397
+sI302
+S''
+sI303
+S'            # Check for a __reduce_ex__ method, fall back to __reduce__'
+p398
+sI304
+S'            reduce = getattr(obj, "__reduce_ex__", None)'
+p399
+sI305
+S'            if reduce:'
+p400
+sI306
+S'                rv = reduce(self.proto)'
+p401
+sI307
+S'            else:'
+p402
+sI308
+S'                reduce = getattr(obj, "__reduce__", None)'
+p403
+sI309
+S'                if reduce:'
+p404
+sI310
+S'                    rv = reduce()'
+p405
+ssg85
+S"(self=<pickle.Pickler instance>, obj=<bound method type.widget of <class 'gluon.sqlhtml.OptionsWidget'>>)"
+p406
+sg87
+g292
+sa(dp407
+g64
+S'/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/copy_reg.py'
+p408
+sg66
+(dp409
+S'base.__name__'
+p410
+S"'instancemethod'"
+p411
+sS'base'
+p412
+S"<type 'instancemethod'>"
+p413
+sS'builtinTypeError'
+p414
+S"<type 'exceptions.TypeError'>"
+p415
+ssg72
+I70
+sg73
+(dp416
+I65
+S'        base = object # not really reachable'
+p417
+sI66
+S'    if base is object:'
+p418
+sI67
+S'        state = None'
+p419
+sI68
+S'    else:'
+p420
+sI69
+S'        if base is self.__class__:'
+p421
+sI70
+S'            raise TypeError, "can\'t pickle %s objects" % base.__name__'
+p422
+sI71
+S'        state = base(self)'
+p423
+sI72
+S'    args = (self.__class__, base, state)'
+p424
+sI73
+S'    try:'
+p425
+sI74
+S'        getstate = self.__getstate__'
+p426
+ssg85
+S"(self=<bound method type.widget of <class 'gluon.sqlhtml.OptionsWidget'>>, proto=0)"
+p427
+sg87
+S'_reduce_ex'
+p428
+sasS'pyver'
+p429
+S'Python 2.7.10: /usr/bin/python (prefix: /System/Library/Frameworks/Python.framework/Versions/2.7)'
+p430
+sS'session'
+p431
+g59
+(S's\xf0\x08\x00\x00<div><table><tr><td style="font-weight:bold;vertical-align:top;">auth</td><td style="vertical-align:top;">:</td><td><div><table><tr><td style="font-weight:bold;vertical-align:top;">expiration</td><td style="vertical-align:top;">:</td><td><div>3600</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">hmac_key</td><td style="vertical-align:top;">:</td><td><div>1241094f-c844-4c8a-9834-999611882e5d</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">last_visit</td><td style="vertical-align:top;">:</td><td><div>datetime.datetime(2019, 8, 20, 2, 33, 20, 895800)</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">remember_me</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">user</td><td style="vertical-align:top;">:</td><td><div><table><tr><td style="font-weight:bold;vertical-align:top;">email</td><td style="vertical-align:top;">:</td><td><div>admin@duoc.cl</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">first_name</td><td style="vertical-align:top;">:</td><td><div>Admin</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">id</td><td style="vertical-align:top;">:</td><td><div>1L</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">last_name</td><td style="vertical-align:top;">:</td><td><div>Duoc</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">registration_id</td><td style="vertical-align:top;">:</td><td><div>None</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">registration_key</td><td style="vertical-align:top;">:</td><td><div>None</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">reset_password_key</td><td style="vertical-align:top;">:</td><td><div>None</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">user_groups</td><td style="vertical-align:top;">:</td><td><div><table><tr><td style="font-weight:bold;vertical-align:top;">1</td><td style="vertical-align:top;">:</td><td><div>Sysadmin</div></td></tr></table></div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">flash</td><td style="vertical-align:top;">:</td><td><div>None</div></td></tr></table></div>'
+tRp432
+sS'etype'
+p433
+S"<type 'exceptions.TypeError'>"
+p434
+sS'date'
+p435
+S'Tue Aug 20 02:33:21 2019'
+p436
+sS'response'
+p437
+g59
+(S's\xae\x1b\x00\x00<div><table><tr><td style="font-weight:bold;vertical-align:top;">body</td><td style="vertical-align:top;">:</td><td><div>&lt;cStringIO.StringO object at 0x112fe3880&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">cookies</td><td style="vertical-align:top;">:</td><td><div><table><tr><td style="font-weight:bold;vertical-align:top;">session_id_test</td><td style="vertical-align:top;">:</td><td><div>127.0.0.1-0d588566-6888-4eed-8b21-34cc78c84a81<table><tr><td style="font-weight:bold;vertical-align:top;">comment</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">domain</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">expires</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">httponly</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">max-age</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">path</td><td style="vertical-align:top;">:</td><td><div>/</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">samesite</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">secure</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">version</td><td style="vertical-align:top;">:</td><td><div></div></td></tr></table></div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">delimiters</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div>{{</div></td></tr><tr><td><div>}}</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">files</td><td style="vertical-align:top;">:</td><td><div><table></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">flash</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">form_label_separator</td><td style="vertical-align:top;">:</td><td><div></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">formstyle</td><td style="vertical-align:top;">:</td><td><div>bootstrap4_inline</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">generic_patterns</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div>*</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">google_analytics_id</td><td style="vertical-align:top;">:</td><td><div>None</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">headers</td><td style="vertical-align:top;">:</td><td><div><table><tr><td style="font-weight:bold;vertical-align:top;">X-Powered-By</td><td style="vertical-align:top;">:</td><td><div>web2py</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">menu</td><td style="vertical-align:top;">:</td><td><div><table></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">meta</td><td style="vertical-align:top;">:</td><td><div><table><tr><td style="font-weight:bold;vertical-align:top;">author</td><td style="vertical-align:top;">:</td><td><div>Your Name &lt;you@example.com&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">description</td><td style="vertical-align:top;">:</td><td><div>a cool new app</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">generator</td><td style="vertical-align:top;">:</td><td><div>Web2py Web Framework</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">keywords</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div>web2py</div></td></tr><tr><td><div>python</div></td></tr><tr><td><div>framework</div></td></tr></table></div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">models_to_run</td><td style="vertical-align:top;">:</td><td><div><table><tr><td><div>^\\w+\\.py$</div></td></tr><tr><td><div>^employee/\\w+\\.py$</div></td></tr><tr><td><div>^employee/new/\\w+\\.py$</div></td></tr></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">postprocessing</td><td style="vertical-align:top;">:</td><td><div><table></table></div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_client</td><td style="vertical-align:top;">:</td><td><div>127.0.0.1</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_cookie_compression_level</td><td style="vertical-align:top;">:</td><td><div>None</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_cookie_expires</td><td style="vertical-align:top;">:</td><td><div>None</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_data_name</td><td style="vertical-align:top;">:</td><td><div>session_data_test</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_file</td><td style="vertical-align:top;">:</td><td><div>&lt;open file &#x27;/Users/nic/Dev/web2py/applications/test/sessions/1e5/1c5/127.0.0.1-0d588566-6888-4eed-8b21-34cc78c84a81&#x27;, mode &#x27;rb+&#x27; at 0x112ab11e0&gt;</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_filename</td><td style="vertical-align:top;">:</td><td><div>/Users/nic/Dev/web2py/applications/test/sessions/127.0.0.1-0d588566-6888-4eed-8b21-34cc78c84a81</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_hash</td><td style="vertical-align:top;">:</td><td><div>3865d0828f61cefdfaa859c89d6dffc9</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_id</td><td style="vertical-align:top;">:</td><td><div>127.0.0.1-0d588566-6888-4eed-8b21-34cc78c84a81</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_id_name</td><td style="vertical-align:top;">:</td><td><div>session_id_test</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_locked</td><td style="vertical-align:top;">:</td><td><div>True</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_masterapp</td><td style="vertical-align:top;">:</td><td><div>test</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_new</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">session_storage_type</td><td style="vertical-align:top;">:</td><td><div>file</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">show_toolbar</td><td style="vertical-align:top;">:</td><td><div>False</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">status</td><td style="vertical-align:top;">:</td><td><div>200</div></td></tr><tr><td style="font-weight:bold;vertical-align:top;">view</td><td style="vertical-align:top;">:</td><td><div>employee/new.html</div></td></tr></table></div>'
+tRp438
+sS'locals'
+p439
+(dp440
+S'self'
+p441
+S"<bound method type.widget of <class 'gluon.sqlhtml.OptionsWidget'>>"
+p442
+sS'base'
+p443
+S"<type 'instancemethod'>"
+p444
+sS'proto'
+p445
+S'0'
+sssS'traceback'
+p446
+S'Traceback (most recent call last):\n  File "/Users/nic/Dev/web2py/gluon/restricted.py", line 219, in restricted\n    exec(ccode, environment)\n  File "/Users/nic/Dev/web2py/applications/test/models/db_model.py", line 28, in <module>\n    format=\'%(first_name)s\'\n  File "/Users/nic/Dev/web2py/gluon/packages/dal/pydal/base.py", line 592, in define_table\n    table = self.lazy_define_table(tablename, *fields, **kwargs)\n  File "/Users/nic/Dev/web2py/gluon/packages/dal/pydal/base.py", line 626, in lazy_define_table\n    polymodel=polymodel)\n  File "/Users/nic/Dev/web2py/gluon/packages/dal/pydal/adapters/base.py", line 798, in create_table\n    return self.migrator.create_table(*args, **kwargs)\n  File "/Users/nic/Dev/web2py/gluon/packages/dal/pydal/migrator.py", line 318, in create_table\n    fake_migrate=fake_migrate\n  File "/Users/nic/Dev/web2py/gluon/packages/dal/pydal/migrator.py", line 463, in migrate_table\n    self.save_dbt(table, sql_fields_current)\n  File "/Users/nic/Dev/web2py/gluon/packages/dal/pydal/migrator.py", line 473, in save_dbt\n    pickle.dump(sql_fields_current, tfile)\n  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/pickle.py", line 1370, in dump\n    Pickler(file, protocol).dump(obj)\n  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/pickle.py", line 224, in dump\n    self.save(obj)\n  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/pickle.py", line 286, in save\n    f(self, obj) # Call unbound method with explicit self\n  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/pickle.py", line 649, in save_dict\n    self._batch_setitems(obj.iteritems())\n  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/pickle.py", line 663, in _batch_setitems\n    save(v)\n  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/pickle.py", line 286, in save\n    f(self, obj) # Call unbound method with explicit self\n  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/pickle.py", line 649, in save_dict\n    self._batch_setitems(obj.iteritems())\n  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/pickle.py", line 663, in _batch_setitems\n    save(v)\n  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/pickle.py", line 306, in save\n    rv = reduce(self.proto)\n  File "/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/copy_reg.py", line 70, in _reduce_ex\n    raise TypeError, "can\'t pickle %s objects" % base.__name__\nTypeError: can\'t pickle instancemethod objects\n'
+p447
+s.

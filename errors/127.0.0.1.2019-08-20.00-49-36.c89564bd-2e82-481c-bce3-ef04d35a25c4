@@ -1,0 +1,21 @@
+(dp1
+S'output'
+p2
+S'<type \'exceptions.RuntimeError\'> Failure to connect, tried 5 times:\nTraceback (most recent call last):\n  File "/Users/nic/Dev/web2py/gluon/packages/dal/pydal/base.py", line 457, in __init__\n    self._adapter = adapter(**kwargs)\n  File "/Users/nic/Dev/web2py/gluon/packages/dal/pydal/adapters/postgres.py", line 27, in __call__\n    return AdapterMeta.__call__(cls, *args, **kwargs)\n  File "/Users/nic/Dev/web2py/gluon/packages/dal/pydal/adapters/__init__.py", line 39, in __call__\n    obj = super(AdapterMeta, cls).__call__(*args, **kwargs)\n  File "/Users/nic/Dev/web2py/gluon/packages/dal/pydal/adapters/postgres.py", line 54, in __init__\n    driver_args, adapter_args, do_connect, after_connection)\n  File "/Users/nic/Dev/web2py/gluon/packages/dal/pydal/adapters/base.py", line 369, in __init__\n    super(SQLAdapter, self).__init__(*args, **kwargs)\n  File "/Users/nic/Dev/web2py/gluon/packages/dal/pydal/adapters/base.py", line 53, in __init__\n    self.reconnect()\n  File "/Users/nic/Dev/web2py/gluon/packages/dal/pydal/helpers/classes.py", line 181, in _reconnect_and_configure\n    self._connection_reconnect()\n  File "/Users/nic/Dev/web2py/gluon/packages/dal/pydal/connection.py", line 174, in reconnect\n    self.connection = self.connector()\n  File "/Users/nic/Dev/web2py/gluon/packages/dal/pydal/adapters/postgres.py", line 118, in connector\n    return self.driver.connect(**self.driver_args)\n  File "/Library/Python/2.7/site-packages/psycopg2/__init__.py", line 130, in connect\n    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)\nOperationalError: FATAL:  role "test" does not exist\n\n'
+p3
+sS'layer'
+p4
+S'/Users/nic/Dev/web2py/applications/test/models/db.py'
+p5
+sS'code'
+p6
+S'<code object <module> at 0x1120a19b0, file "/Users/nic/Dev/web2py/applications/test/models/db.py", line 7>'
+p7
+sS'snapshot'
+p8
+(dp9
+sS'traceback'
+p10
+S'Traceback (most recent call last):\n  File "/Users/nic/Dev/web2py/gluon/restricted.py", line 219, in restricted\n    exec(ccode, environment)\n  File "/Users/nic/Dev/web2py/applications/test/models/db.py", line 36, in <module>\n    check_reserved=[\'all\'])\n  File "/Users/nic/Dev/web2py/gluon/packages/dal/pydal/base.py", line 171, in __call__\n    obj = super(MetaDAL, cls).__call__(*args, **kwargs)\n  File "/Users/nic/Dev/web2py/gluon/packages/dal/pydal/base.py", line 477, in __init__\n    "Failure to connect, tried %d times:\\n%s" % (attempts, tb)\nRuntimeError: Failure to connect, tried 5 times:\nTraceback (most recent call last):\n  File "/Users/nic/Dev/web2py/gluon/packages/dal/pydal/base.py", line 457, in __init__\n    self._adapter = adapter(**kwargs)\n  File "/Users/nic/Dev/web2py/gluon/packages/dal/pydal/adapters/postgres.py", line 27, in __call__\n    return AdapterMeta.__call__(cls, *args, **kwargs)\n  File "/Users/nic/Dev/web2py/gluon/packages/dal/pydal/adapters/__init__.py", line 39, in __call__\n    obj = super(AdapterMeta, cls).__call__(*args, **kwargs)\n  File "/Users/nic/Dev/web2py/gluon/packages/dal/pydal/adapters/postgres.py", line 54, in __init__\n    driver_args, adapter_args, do_connect, after_connection)\n  File "/Users/nic/Dev/web2py/gluon/packages/dal/pydal/adapters/base.py", line 369, in __init__\n    super(SQLAdapter, self).__init__(*args, **kwargs)\n  File "/Users/nic/Dev/web2py/gluon/packages/dal/pydal/adapters/base.py", line 53, in __init__\n    self.reconnect()\n  File "/Users/nic/Dev/web2py/gluon/packages/dal/pydal/helpers/classes.py", line 181, in _reconnect_and_configure\n    self._connection_reconnect()\n  File "/Users/nic/Dev/web2py/gluon/packages/dal/pydal/connection.py", line 174, in reconnect\n    self.connection = self.connector()\n  File "/Users/nic/Dev/web2py/gluon/packages/dal/pydal/adapters/postgres.py", line 118, in connector\n    return self.driver.connect(**self.driver_args)\n  File "/Library/Python/2.7/site-packages/psycopg2/__init__.py", line 130, in connect\n    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)\nOperationalError: FATAL:  role "test" does not exist\n\n\n'
+p11
+s.

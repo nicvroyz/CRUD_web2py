@@ -1,0 +1,135 @@
+{{extend 'custom_layout.html'}}
+
+<div class="panel panel-primary gradient-diag1">
+    <div class="card panel-body" style="max-width:600px;">
+            <div class="row" style="background-color:#116ca5;color: #fff;margin:1px;max-width:900px;">
+                    <span style="font-size: 18px; padding:10px 10px 0px 30px;">Registrar empleado</span>
+                    <div style="padding-bottom:10px;margin-left:70%;" class="pull-right btn-formulario">
+                <a href="{{=URL('default','index')}}" style="font-size: 14px;color:#fff;"><span class="fa fa-list-ul"></span> Lista de empleados</a>
+            </div>
+    </div>
+
+    <div class="form-row col-xl-12" style="margin-left: 25px; max-width:900px;">
+        {{=form.custom.begin}}
+        <div class="form-group row col-md-6 xl-6" style="margin:0 auto;padding-top:20px;">
+            <label class="control-label">
+                RUT (obligatorio)
+             </label>
+            <div class="text-center" id="rut">
+                    {{form.custom.widget.rut['_style']='width:210px'}}
+                    {{form.custom.widget.rut['_required']='required'}}
+                    {{=form.custom.widget.rut}}
+            </div>
+        </div>
+        <div class="form-group input-group col-md-6" style="padding-top:20px;">
+            <label class="control-label">
+            Fecha de nacimiento
+             </label>
+             <div class="text-center">
+                    {{form.custom.widget.birth_date['_style']='width:210px'}}
+                    {{form.custom.widget.birth_date['_required']='required'}}
+                    {{=form.custom.widget.birth_date}}
+            </div>
+        </div>
+        <div class="form-group row col-sm-6 xl-6" style="margin:0 auto;padding-top:20px;">
+            <label class="control-label">
+                Nombre 
+             </label>
+            <div class="text-center">
+                    {{form.custom.widget.first_name['_style']='width:210px'}}
+                    {{form.custom.widget.first_name['_required']='required'}}
+                    {{=form.custom.widget.first_name}}
+            </div>
+        </div>
+        <div class="form-group row col-sm-6 xl-6" style="margin:0 auto;padding-top:20px;">
+            <label class="control-label">
+                Apellido
+             </label>
+            <div class="text-center">
+                {{form.custom.widget.last_name['_style']='width:210px'}}
+                {{form.custom.widget.last_name['_required']='required'}}
+                {{=form.custom.widget.last_name}}
+            </div>
+        </div>
+
+        <div class="form-group col-md-6" style="padding-top:20px;">
+            <label class="control-label">
+            Género
+             </label>
+            <div class="text-center">
+                    {{form.custom.widget.gender_id['_style']='width:210px'}}
+                    {{form.custom.widget.gender_id['_required']='required'}}
+                    {{=form.custom.widget.gender_id}}
+            </div>
+        </div>
+
+        <div class="form-group col-md-6" style="padding-top:20px;">
+            <label class="control-label">
+            Correo
+             </label>
+            <div class="text-center">
+                    {{form.custom.widget.email['_style']='width:210px'}}
+                    {{form.custom.widget.email['_required']='required'}}
+                    {{=form.custom.widget.email}}
+            </div>
+        </div>
+        <div class="form-group col-md-6" style="padding-top:20px;">
+            <label class="control-label">
+            Teléfono (opcional)
+             </label>
+            <div class="text-center">
+                    {{form.custom.widget.phone['_style']='width:210px'}}
+                    {{=form.custom.widget.phone}}
+            </div>
+        </div>
+        <div class="form-group col-md-6" style="padding-top:20px;">
+            <label class="control-label">
+            Dirección
+             </label>
+            <div class="text-center">
+                    {{form.custom.widget.address['_style']='width:210px'}}
+                    {{form.custom.widget.address['_required']='required'}}
+                    {{=form.custom.widget.address}}
+            </div>
+        </div>
+        <div class="form-group col-md-6" style="padding-top:20px;">
+            <label class="control-label">
+            Profesión
+             </label>
+            <div class="text-center">
+                    {{form.custom.widget.profession_id['_style']='width:210px'}}
+                    {{form.custom.widget.profession_id['_required']='required'}}
+                    {{=form.custom.widget.profession_id}}
+            </div>
+        </div>
+        <div class="form-group col-md-6" style="padding-top:20px;">
+            <label class="control-label">
+            Años de experiencia
+             </label>
+            <div class="text-center">
+                    {{form.custom.widget.exp_id['_style']='width:210px'}}
+                    {{form.custom.widget.exp_id['_required']='required'}}
+                    {{=form.custom.widget.exp_id}}
+            </div>
+        </div>
+            <div class="col-md-12 text-center" style="padding:30px; padding-left: 0px;">
+                <input type="submit" style="background-color: #116ca5; color: white;" class="btn" value="Guardar" />
+            </div>
+
+        {{=form.custom.end}}
+
+        {{#=form}}
+    </div>
+</div>
+<script>
+$("input#rut").rut({
+    formatOn: 'keyup',
+    minimumLength: 8, // validar largo mínimo; default: 2
+    validateOn: 'change keyup',
+    useThousandsSeparator : false // si no se quiere validar, pasar null
+});
+
+</script>
+
+{{block page_js}}
+{{end page_js}}

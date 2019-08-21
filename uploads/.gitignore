@@ -1,0 +1,6 @@
+*.*
+*.*~
+*.*#
+!.gitignore
+!*.key
+.DS_Store

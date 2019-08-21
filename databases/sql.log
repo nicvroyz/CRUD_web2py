@@ -1,0 +1,88 @@
+timestamp: 2019-08-20T22:11:00.888154
+CREATE TABLE "auth_user"(
+    "id" SERIAL PRIMARY KEY,
+    "first_name" VARCHAR(128),
+    "last_name" VARCHAR(128),
+    "email" VARCHAR(512),
+    "password" VARCHAR(512),
+    "registration_key" VARCHAR(512),
+    "reset_password_key" VARCHAR(512),
+    "registration_id" VARCHAR(512)
+);
+success!
+timestamp: 2019-08-20T22:11:00.959996
+CREATE TABLE "auth_group"(
+    "id" SERIAL PRIMARY KEY,
+    "role" VARCHAR(512),
+    "description" TEXT
+);
+success!
+timestamp: 2019-08-20T22:11:01.019639
+CREATE TABLE "auth_membership"(
+    "id" SERIAL PRIMARY KEY,
+    "user_id" INTEGER REFERENCES "auth_user" ("id") ON DELETE CASCADE  ,
+    "group_id" INTEGER REFERENCES "auth_group" ("id") ON DELETE CASCADE  
+);
+success!
+timestamp: 2019-08-20T22:11:01.080796
+CREATE TABLE "auth_permission"(
+    "id" SERIAL PRIMARY KEY,
+    "group_id" INTEGER REFERENCES "auth_group" ("id") ON DELETE CASCADE  ,
+    "name" VARCHAR(512),
+    "table_name" VARCHAR(512),
+    "record_id" INTEGER
+);
+success!
+timestamp: 2019-08-20T22:11:01.140828
+CREATE TABLE "auth_event"(
+    "id" SERIAL PRIMARY KEY,
+    "time_stamp" TIMESTAMP,
+    "client_ip" VARCHAR(512),
+    "user_id" INTEGER REFERENCES "auth_user" ("id") ON DELETE CASCADE  ,
+    "origin" VARCHAR(512),
+    "description" TEXT
+);
+success!
+timestamp: 2019-08-20T22:11:01.205258
+CREATE TABLE "auth_cas"(
+    "id" SERIAL PRIMARY KEY,
+    "user_id" INTEGER REFERENCES "auth_user" ("id") ON DELETE CASCADE  ,
+    "created_on" TIMESTAMP,
+    "service" VARCHAR(512),
+    "ticket" VARCHAR(512),
+    "renew" CHAR(1)
+);
+success!
+timestamp: 2019-08-20T22:12:04.837637
+CREATE TABLE "profession"(
+    "id" SERIAL PRIMARY KEY,
+    "name_profession" VARCHAR(512)
+);
+success!
+timestamp: 2019-08-20T22:12:04.891407
+CREATE TABLE "gender"(
+    "id" SERIAL PRIMARY KEY,
+    "option_gender" VARCHAR(512)
+);
+success!
+timestamp: 2019-08-20T22:12:04.946586
+CREATE TABLE "years_exp"(
+    "id" SERIAL PRIMARY KEY,
+    "experience" VARCHAR(512)
+);
+success!
+timestamp: 2019-08-20T22:12:05.005318
+CREATE TABLE "employee"(
+    "id" SERIAL PRIMARY KEY,
+    "rut" VARCHAR(512),
+    "first_name" VARCHAR(512),
+    "last_name" VARCHAR(512),
+    "gender_id" INTEGER REFERENCES "gender" ("id") ON DELETE CASCADE  ,
+    "birth_date" DATE,
+    "email" VARCHAR(512),
+    "phone" INTEGER,
+    "address" VARCHAR(512),
+    "profession_id" INTEGER REFERENCES "profession" ("id") ON DELETE CASCADE  ,
+    "exp_id" INTEGER REFERENCES "years_exp" ("id") ON DELETE CASCADE  
+);
+success!
