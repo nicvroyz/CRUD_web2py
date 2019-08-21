@@ -1,0 +1,10 @@
+*.pyc
+*#.*
+~*.*
+*.*~
+*.*#
+!.gitignore
+.#*
+temp_graph
+.DS_Store
+fontList.cache

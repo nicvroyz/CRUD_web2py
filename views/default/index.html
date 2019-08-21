@@ -62,39 +62,37 @@
 
 {{block page_js}}
 <script>
-    $(document).ready(function(){
-        $(document).on('click', '.btn-eliminar', function(e){
-            if(!confirm('¿Está seguro que desea eliminar este empleado?')) {
-                e.preventemployee();
-            }
-        });
+	$(document).ready(function(){
+		$(document).on('click', '.btn-eliminar', function(e){
+			if(!confirm('¿Está seguro que desea eliminar este empleado?')) {
+				e.preventemployee();
+			}
+		});
 	});
 	$(document).ready(function(){
 		$("#search").on("keyup", function() {
-		  var value = $(this).val().toLowerCase();
-		  $("#myTable tr").filter(function() {
+			var value = $(this).val().toLowerCase();
+			$("#myTable tr").filter(function() {
 			$(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
-		  });
+			});
 		});
-	  });
+		});
+	function filterEmp(){
+		prof = "{{employee.profession_id.name_profession}}"
+		console.log(prof)
+		$('option[name=profession] option').each(function(i,e){
+		if($(e).data('profession') == prof || $(e).data('profession') == 0){
+			$(e).show()
+		}else{
+			$(e).hide()
+		}
+		})
+		$('select[name=filter]').val('')
+	}
 
-
-	  function filterEmp(){
-			prof = "{{employee.profession_id.name_profession}}"
-			console.log(prof)
-			$('option[name=profession] option').each(function(i,e){
-			if($(e).data('profession') == prof || $(e).data('profession') == 0){
-				$(e).show()
-			}else{
-				$(e).hide()
-			}
-			})
-			$('select[name=filter]').val('')
-	  }
-	  
-	  $("select[name=filter]").on('change', function(){
+	$("select[name=filter]").on('change', function(){
 		filterEmp()
-	  })
+	})
 
 </script>
 {{end page_js}}
